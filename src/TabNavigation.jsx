@@ -1,6 +1,11 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Tabs, Tab, Box } from "@mui/material";
+import {
+  Box,
+  BottomNavigation,
+  BottomNavigationAction,
+  Toolbar,
+} from "@mui/material";
 
 export default function TabNavigation() {
   const navigate = useNavigate();
@@ -14,12 +19,24 @@ export default function TabNavigation() {
   };
 
   return (
-    <Box>
-      <Tabs value={value} onChange={handleChange}>
-        <Tab label="Home" />
-        <Tab label="About" />
-        <Tab label="Contact" />
-      </Tabs>
-    </Box>
+    <Toolbar>
+      <Box>
+        <BottomNavigation
+          sx={{
+            position: "fixed",
+            bottom: 0,
+            left: 0,
+            right: 0,
+          }}
+          showLabels
+          value={value}
+          onChange={handleChange}
+        >
+          <BottomNavigationAction label="Home" />
+          <BottomNavigationAction label="About" />
+          <BottomNavigationAction label="Contact" />
+        </BottomNavigation>
+      </Box>
+    </Toolbar>
   );
 }
