@@ -20,10 +20,6 @@ const media = [
     label: "«Sé que no estic sol», Worship.cat",
     url: "https://www.youtube.com/watch?v=HdV20_4pdDo",
   },
-  {
-    label: "«Al salir al camino», Rezando voy",
-    url: "https://rezando.es/public/rezandovoy/oraciones/2559/o.mp3",
-  },
 ];
 export default function Musica() {
   const [url, setUrl] = React.useState(() => media[0]);
