@@ -6,6 +6,9 @@ import {
   BottomNavigationAction,
   Toolbar,
 } from "@mui/material";
+import HikingIcon from "@mui/icons-material/Hiking";
+import MusicNoteIcon from "@mui/icons-material/MusicNote";
+import ChurchIcon from "@mui/icons-material/Church";
 
 export default function TabNavigation() {
   const navigate = useNavigate();
@@ -14,7 +17,7 @@ export default function TabNavigation() {
   const handleChange = (event, newValue) => {
     setValue(newValue);
     if (newValue === 0) navigate("/");
-    if (newValue === 1) navigate("/about");
+    if (newValue === 1) navigate("/musica");
     if (newValue === 2) navigate("/contact");
   };
 
@@ -32,9 +35,9 @@ export default function TabNavigation() {
           value={value}
           onChange={handleChange}
         >
-          <BottomNavigationAction label="Home" />
-          <BottomNavigationAction label="About" />
-          <BottomNavigationAction label="Contact" />
+          <BottomNavigationAction label="Pregària" icon={<ChurchIcon />} />
+          <BottomNavigationAction label="Música" icon={<MusicNoteIcon />} />
+          <BottomNavigationAction label="Ruta" icon={<HikingIcon />} />
         </BottomNavigation>
       </Box>
     </Toolbar>

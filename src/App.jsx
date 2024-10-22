@@ -6,7 +6,8 @@ import "./App.css";
 import TabNavigation from "./TabNavigation.jsx";
 import AppBar from "./AppBar.jsx";
 import { Box, Paper, Toolbar } from "@mui/material";
-import Home from "./Home.jsx";
+import Pregaria from "./Pregaria.jsx";
+import Musica from "./Musica.jsx";
 
 function App() {
   return (
@@ -22,8 +23,8 @@ function App() {
           <Box sx={{ padding: 2 }}>
             <Toolbar />
             <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/about" element={<div>about</div>} />
+              <Route path="/" element={<Pregaria />} />
+              <Route path="/musica" element={<Musica />} />
               <Route path="/contact" element={<div>contact</div>} />
             </Routes>
           </Box>
