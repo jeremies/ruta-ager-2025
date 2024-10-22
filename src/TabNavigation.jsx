@@ -9,6 +9,7 @@ import {
 import HikingIcon from "@mui/icons-material/Hiking";
 import MusicNoteIcon from "@mui/icons-material/MusicNote";
 import ChurchIcon from "@mui/icons-material/Church";
+import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 
 export default function TabNavigation() {
   const navigate = useNavigate();
@@ -18,7 +19,8 @@ export default function TabNavigation() {
     setValue(newValue);
     if (newValue === 0) navigate("/");
     if (newValue === 1) navigate("/musica");
-    if (newValue === 2) navigate("/contact");
+    if (newValue === 2) navigate("/media");
+    if (newValue === 3) navigate("/ruta");
   };
 
   return (
@@ -37,6 +39,7 @@ export default function TabNavigation() {
         >
           <BottomNavigationAction label="Pregària" icon={<ChurchIcon />} />
           <BottomNavigationAction label="Música" icon={<MusicNoteIcon />} />
+          <BottomNavigationAction label="Media" icon={<PlayArrowIcon />} />
           <BottomNavigationAction label="Ruta" icon={<HikingIcon />} />
         </BottomNavigation>
       </Box>

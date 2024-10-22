@@ -22,7 +22,7 @@ export default function AppBar() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            News
+            Ruta del cister 2024
           </Typography>
           <Button color="inherit">Login</Button>
         </Toolbar>

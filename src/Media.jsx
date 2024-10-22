@@ -7,30 +7,22 @@ import NativeSelect from "@mui/material/NativeSelect";
 import { Typography } from "@mui/material";
 
 const media = [
-  { label: "Sel·lecciona una cançó", url: "" },
-  {
-    label: "«La Felicidad», Izaro",
-    url: "https://www.youtube.com/watch?v=rzp5foKF9Ps",
-  },
-  {
-    label: "Sálvame, Íñigo Quintero",
-    url: "https://www.youtube.com/watch?v=6UAinV-h6VI",
-  },
-  {
-    label: "«Sé que no estic sol», Worship.cat",
-    url: "https://www.youtube.com/watch?v=HdV20_4pdDo",
-  },
+  { label: "Sel·lecciona un media", url: "" },
   {
     label: "«Al salir al camino», Rezando voy",
     url: "https://rezando.es/public/rezandovoy/oraciones/2559/o.mp3",
   },
+  {
+    label: "«2x01 Objetivo: la felicidad», por Marian Rojas",
+    url: "https://www.youtube.com/watch?v=F0zT5MNkq9g",
+  },
 ];
-export default function Musica() {
+export default function Media() {
   const [url, setUrl] = React.useState(() => media[0]);
   return (
     <div>
       <Typography variant="h4" gutterBottom>
-        Música
+        Podcasts / vídeos / altres:
       </Typography>
       <Box sx={{ minWidth: 120 }}>
         <FormControl fullWidth>

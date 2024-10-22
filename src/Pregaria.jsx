@@ -4,6 +4,9 @@ import Typography from "@mui/material/Typography";
 export default function Pregaria() {
   return (
     <div>
+      <Typography variant="h4" gutterBottom>
+        Pregària
+      </Typography>
       <Typography variant="h5" gutterBottom>
         La vida es vida (Teresa de Ávila)
       </Typography>
