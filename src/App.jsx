@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import PWABadge from "./PWABadge.jsx";
@@ -12,6 +12,7 @@ import Media from "./Media.jsx";
 import Ruta from "./Ruta.jsx";
 
 function App() {
+  const [day, setDay] = useState(1);
   return (
     <>
       <Router>
@@ -21,14 +22,14 @@ function App() {
             minWidth: "100vw",
           }}
         >
-          <AppBar />
+          <AppBar day={day} setDay={setDay} />
           <Box sx={{ padding: 2 }}>
             <Toolbar />
             <Routes>
-              <Route path="/" element={<Pregaria />} />
-              <Route path="/musica" element={<Musica />} />
-              <Route path="/media" element={<Media />} />
-              <Route path="/ruta" element={<Ruta />} />
+              <Route path="/" element={<Pregaria day={day} />} />
+              <Route path="/musica" element={<Musica day={day} />} />
+              <Route path="/media" element={<Media day={day} />} />
+              <Route path="/ruta" element={<Ruta day={day} />} />
             </Routes>
           </Box>
           <TabNavigation />
