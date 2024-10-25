@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 import {
   Box,
   BottomNavigation,
@@ -13,7 +13,26 @@ import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 
 export default function TabNavigation() {
   const navigate = useNavigate();
+  const location = useLocation();
   const [value, setValue] = useState(0);
+
+  useEffect(() => {
+    const path = location.pathname;
+    setValue(
+      (() => {
+        switch (path) {
+          case "/":
+            return 0;
+          case "/musica":
+            return 1;
+          case "/media":
+            return 2;
+          case "/ruta":
+            return 3;
+        }
+      })()
+    );
+  }, [location]);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
