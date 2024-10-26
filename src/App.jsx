@@ -11,8 +11,18 @@ import Musica from "./Musica.jsx";
 import Media from "./Media.jsx";
 import Ruta from "./Ruta.jsx";
 
+const DAY = "day";
+
 function App() {
-  const [day, setDay] = useState(1);
+  const [day, setDay] = useState(() => {
+    const d = window.localStorage.getItem(DAY);
+    return d ?? 1;
+  });
+
+  const setDayWithLocalStorage = (d) => {
+    setDay(d);
+    window.localStorage.setItem(DAY, d);
+  };
   return (
     <>
       <Router>
@@ -22,7 +32,7 @@ function App() {
             minWidth: "100vw",
           }}
         >
-          <AppBar day={day} setDay={setDay} />
+          <AppBar day={day} setDay={setDayWithLocalStorage} />
           <Box sx={{ padding: 2 }}>
             <Toolbar />
             <Routes>
