@@ -7,7 +7,6 @@ import NativeSelect from "@mui/material/NativeSelect";
 import { Typography } from "@mui/material";
 
 const media = [
-  { label: "Sel·lecciona una cançó", url: "" },
   {
     label: "«La Felicidad», Izaro",
     url: "https://www.youtube.com/watch?v=rzp5foKF9Ps",
@@ -22,7 +21,7 @@ const media = [
   },
 ];
 export default function Musica() {
-  const [url, setUrl] = React.useState(() => media[0]);
+  const [url, setUrl] = React.useState(media[0].url);
   return (
     <div>
       <Typography variant="h4" gutterBottom>
