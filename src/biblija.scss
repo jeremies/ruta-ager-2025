@@ -1,0 +1,492 @@
+.biblija {
+  /* Formatting styles for the Biblical text */
+  /* General styles*/
+  .text {
+    font-size: 100%;
+  }
+
+  .text-0 {
+    font-size: 100%;
+  }
+
+  .text-1 {
+    font-size: 90%;
+  }
+
+  .text-2 {
+    font-size: 100%;
+    text-align: right;
+  }
+
+  .tr-even {
+    background-color: #f6f6e7;
+  }
+
+  .tr-odd {
+  }
+
+  /* SFMs */
+
+  .h {
+    font-style: italic;
+    text-align: center;
+  }
+
+  .c {
+    font-weight: bolder;
+    font-size: 200%;
+    color: #000099;
+  }
+
+  .ca {
+    font-weight: bolder;
+    font-size: 200%;
+    color: #009900;
+    text-indent: 0;
+  }
+
+  .cp {
+    font-weight: bolder;
+    font-size: 200%;
+    color: #009900;
+    text-indent: 0;
+  }
+
+  .c-1 {
+    font-weight: bolder;
+    font-size: 150%;
+    color: #000099;
+  }
+
+  .c-2 {
+    font-weight: bolder;
+    font-size: 150%;
+    color: #000099;
+  }
+
+  .v {
+    color: #990000;
+    vertical-align: text-top;
+    font-size: 65%;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+  }
+
+  .v-1 {
+    color: #990000;
+    font-size: 100%;
+    font-weight: 900;
+    font-style: normal;
+    font-variant: normal;
+  }
+
+  .v-2 {
+    color: #990000;
+    font-size: 80%;
+    font-weight: 900;
+    font-style: normal;
+    font-variant: normal;
+  }
+
+  .va {
+    color: #000099;
+    vertical-align: text-top;
+    font-size: 65%;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+  }
+
+  .vp {
+    color: #009900;
+    vertical-align: text-top;
+    font-size: 65%;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+  }
+
+  .mt {
+    font-weight: bold;
+    font-size: 200%;
+    margin-top: 0.3em;
+    margin-bottom: 0.6em;
+  }
+
+  .mt1 {
+    font-weight: bold;
+    font-size: 200%;
+    margin-top: 0.3em;
+    margin-bottom: 0.6em;
+  }
+
+  .mt2 {
+    font-weight: bold;
+    font-size: 150%;
+    margin-bottom: 0.3em;
+  }
+
+  .mt3 {
+    font-weight: bold;
+    font-size: 110%;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.3em;
+  }
+
+  .st {
+    font-weight: bold;
+    font-size: 150%;
+    margin-bottom: 0.3em;
+  }
+
+  .ms {
+    font-size: 150%;
+    color: #000099;
+    text-transform: uppercase;
+    margin-top: 1.2em;
+  }
+
+  .ms1 {
+    font-size: 150%;
+    color: #000099;
+    text-transform: uppercase;
+    margin-top: 1.2em;
+  }
+
+  .ms2 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 110%;
+    color: #000099;
+    margin-top: 1.2em;
+  }
+
+  .sl {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 110%;
+    color: #000099;
+    margin-top: 1.2em;
+  }
+
+  .s {
+    font-weight: 500;
+    font-size: 110%;
+    color: #000099;
+    margin-top: 0.4em;
+    margin-bottom: 0.2em;
+  }
+
+  .s1 {
+    font-weight: 500;
+    font-size: 110%;
+    color: #000099;
+    margin-top: 0.4em;
+    margin-bottom: 0.2em;
+  }
+
+  .s2 {
+    font-style: italic;
+    font-size: 110%;
+    color: #000099;
+    margin-top: 0.5em;
+  }
+
+  .s3 {
+    font-style: italic;
+    font-size: 100%;
+    text-align: left;
+    text-indent: 0;
+  }
+
+  .ss {
+    font-style: italic;
+    font-size: 110%;
+    color: #000099;
+    margin-top: 0.5em;
+  }
+
+  .cl {
+    font-size: 150%;
+    font-variant: small-caps;
+    color: #000099;
+    margin-top: 0.5em;
+  }
+
+  .sp {
+    font-size: 150%;
+    font-variant: small-caps;
+    color: #000099;
+    margin-top: 0.5em;
+  }
+
+  .p {
+    text-indent: 1em;
+  }
+
+  .pi {
+    text-indent: 1em;
+    text-align: left;
+    margin-left: 1em;
+  }
+
+  .pc {
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .m {
+    text-indent: 0;
+  }
+
+  .mi {
+    text-align: left;
+    margin-left: 1em;
+  }
+
+  .li {
+    text-indent: -1em;
+    text-align: left;
+    margin-left: 2em;
+  }
+
+  .li1 {
+    text-indent: -1em;
+    text-align: left;
+    margin-left: 2em;
+  }
+
+  .li2 {
+    text-indent: -1em;
+    text-align: left;
+    margin-left: 3em;
+  }
+
+  .q {
+    text-align: left;
+    margin-left: 2em;
+  }
+
+  .q1 {
+    text-align: left;
+    margin-left: 2em;
+  }
+
+  .q2 {
+    text-align: left;
+    margin-left: 4em;
+  }
+
+  .q3 {
+    text-align: left;
+    margin-left: 6em;
+  }
+
+  .q4 {
+    text-align: right;
+  }
+
+  .qr {
+    text-align: right;
+  }
+
+  .q5 {
+    font-style: italic;
+  }
+
+  .qa {
+    font-style: italic;
+  }
+
+  .qc {
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .qs {
+    font-style: italic;
+    text-align: right;
+  }
+
+  .sla {
+    font-style: italic;
+    text-align: right;
+  }
+
+  .mr {
+    font-style: italic;
+    font-size: 100%;
+    margin-bottom: 0.8em;
+  }
+
+  .r {
+    font-style: italic;
+    font-size: 80%;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+  }
+
+  .r-eu {
+    font-size: 80%;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+  }
+
+  .d {
+    font-style: italic;
+    text-align: left;
+  }
+
+  .ce {
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  /* Introductions */
+
+  .imt {
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 200%;
+    color: #000099;
+    text-transform: uppercase;
+    margin-bottom: 1.2em;
+  }
+
+  .imt1 {
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 200%;
+    color: #000099;
+    text-transform: uppercase;
+    margin-bottom: 1.2em;
+  }
+
+  .imt2 {
+    font-variant: small-caps;
+    font-size: 110%;
+    color: #000099;
+    text-transform: uppercase;
+    margin-bottom: 1.2em;
+  }
+
+  .is {
+    font-size: 110%;
+    color: #000099;
+    margin-top: 0.8em;
+    margin-bottom: 0.4em;
+  }
+
+  .is1 {
+    font-size: 110%;
+    color: #000099;
+    margin-top: 0.8em;
+    margin-bottom: 0.4em;
+  }
+
+  .is2 {
+    font-style: italic;
+    color: #000099;
+    margin-top: 0.8em;
+    margin-bottom: 0.4em;
+  }
+
+  .iss {
+    font-style: italic;
+    color: #000099;
+    margin-top: 0.8em;
+    margin-bottom: 0.4em;
+  }
+
+  .ip {
+    color: #000099;
+    text-align: justify;
+    text-indent: 1em;
+  }
+
+  .ipi {
+    color: #000099;
+    text-align: justify;
+    text-indent: 1em;
+    margin-left: 1em;
+  }
+
+  .ipr {
+    color: #000099;
+    text-align: right;
+  }
+
+  .im {
+    color: #000099;
+    text-align: justify;
+    text-indent: 0;
+  }
+
+  .imi {
+    color: #000099;
+    text-align: justify;
+    text-indent: 1em;
+  }
+
+  .imq {
+    color: #000099;
+    text-align: justify;
+    text-indent: 0;
+    font-style: italic;
+  }
+
+  .iq {
+    color: #000099;
+    text-align: left;
+    margin-left: 2em;
+  }
+
+  .iq1 {
+    color: #000099;
+    text-align: left;
+    margin-left: 2em;
+  }
+
+  .iq2 {
+    color: #000099;
+    text-align: left;
+    margin-left: 4em;
+  }
+
+  .iot {
+    font-size: 110%;
+    font-style: italic;
+    color: #000099;
+    margin-top: 0.8em;
+    margin-bottom: 0.4em;
+  }
+
+  .io {
+    color: #000099;
+    margin-left: 4em;
+  }
+
+  .io1 {
+    color: #000099;
+    margin-left: 4em;
+  }
+
+  .io2 {
+    color: #000099;
+    margin-left: 5em;
+  }
+
+  .io3 {
+    color: #000099;
+    margin-left: 6em;
+  }
+
+  .icr {
+    font-style: italic;
+    color: #000099;
+  }
+}

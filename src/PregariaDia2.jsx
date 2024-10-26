@@ -4,6 +4,63 @@ import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import "./biblija.scss";
+
+const evangeli = `
+<table class="biblija" width="100%">
+  <tbody>
+    <tr class="tr-odd">
+      <td class="text" width="100%" valign="bottom">
+        <div class="p">
+          <span class="v">1&nbsp;</span>En veure les multituds, Jesús pujà a la
+          muntanya, s'assegué, i se li acostaren els deixebles.
+          <span class="v">2&nbsp;</span>Llavors, prenent la paraula, començà a
+          instruir-los dient:
+        </div>
+        <div class="p">
+          <span class="v">3&nbsp;</span>--Feliços els pobres en l'esperit:
+          d'ells és el Regne del cel!
+        </div>
+        <div class="p">
+          <span class="v">4&nbsp;</span>»Feliços els qui ploren: Déu els
+          consolarà!
+        </div>
+        <div class="p">
+          <span class="v">5&nbsp;</span>»Feliços els humils: ells posseiran la
+          terra!
+        </div>
+        <div class="p">
+          <span class="v">6&nbsp;</span>»Feliços els qui tenen fam i set de ser
+          justos: Déu els saciarà!
+        </div>
+        <div class="p">
+          <span class="v">7&nbsp;</span>»Feliços els compassius: Déu se'n
+          compadirà!
+        </div>
+        <div class="p">
+          <span class="v">8&nbsp;</span>»Feliços els nets de cor: ells veuran
+          Déu!
+        </div>
+        <div class="p">
+          <span class="v">9&nbsp;</span>»Feliços els qui treballen per la pau:
+          Déu els anomenarà fills seus!
+        </div>
+        <div class="p">
+          <span class="v">10&nbsp;</span>»Feliços els perseguits pel fet de ser
+          justos: d'ells és el Regne del cel!
+        </div>
+        <div class="p">
+          <span class="v">11&nbsp;</span>»Feliços vosaltres quan, per causa
+          meva, us insultaran, us perseguiran i escamparan contra vosaltres tota
+          mena de calúmnies! <span class="v">12&nbsp;</span>Alegreu-vos-en i
+          celebreu-ho, perquè la vostra recompensa és gran en el cel. També així
+          van perseguir els profetes que us han precedit.
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
 
 export default function PregariaDia2() {
   return (
@@ -13,27 +70,7 @@ export default function PregariaDia2() {
           Evangeli (Mt 5,1-12)
         </AccordionSummary>
         <AccordionDetails>
-          En veure les multituds, Jesús pujà a la muntanya, s'assegué, i se li
-          acostaren els deixebles. Llavors, prenent la paraula, començà a
-          instruir-los dient:
-          <br />
-          --Feliços els pobres en l'esperit: d'ells és el Regne del cel!
-          <br /> »Feliços els qui ploren, perquè seran consolats.
-          <br /> »Feliços els humils, perquè posseiran la terra.
-          <br /> »Feliços els qui tenen fam i set de ser justos, perquè seran
-          saciats.
-          <br /> »Feliços els compassius, perquè seran compadits.
-          <br /> »Feliços els nets de cor, perquè veuran Déu.
-          <br /> »Feliços els qui treballen per la pau, perquè seran anomenats
-          fills de Déu.
-          <br />
-          »Feliços els perseguits pel fet de ser justos, perquè d’ells és el
-          Regne del cel.
-          <br />
-          »Feliços vosaltres quan, per causa meva, us insultaran, us perseguiran
-          i escamparan contra vosaltres tota mena de calúmnies. Alegreu-vos-en i
-          celebreu-ho, perquè la vostra recompensa és gran en el cel. També així
-          van perseguir els profetes que us han precedit.
+          <div dangerouslySetInnerHTML={{ __html: evangeli }}></div>
         </AccordionDetails>
       </Accordion>
       <Typography sx={{ marginTop: 3 }} variant="h5" gutterBottom>
