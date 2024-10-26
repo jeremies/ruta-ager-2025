@@ -18,12 +18,22 @@ const podcastsDia2 = [
     url: "https://www.youtube.com/watch?v=ArARbvGxphU&t=271s",
   },
 ];
+
+const podcastsDia3 = [
+  {
+    label: "Reconciliación, rezando voy.",
+    url: "https://rezando.es/public/rezandovoy/oraciones/2554/o.mp3",
+  },
+];
+
 export default function Media({ day }) {
   let media;
   if (day == 1) {
     media = podcastsDia1;
   } else if (day == 2) {
     media = podcastsDia2;
+  } else if (day == 3) {
+    media = podcastsDia3;
   }
   return <Player title={"Podcasts"} media={media} />;
 }
