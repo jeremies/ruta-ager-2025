@@ -7,6 +7,7 @@ import {
   Toolbar,
 } from "@mui/material";
 import HikingIcon from "@mui/icons-material/Hiking";
+import LyricsIcon from "@mui/icons-material/Lyrics";
 import MusicNoteIcon from "@mui/icons-material/MusicNote";
 import ChurchIcon from "@mui/icons-material/Church";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
@@ -29,6 +30,8 @@ export default function TabNavigation() {
             return 2;
           case "/ruta":
             return 3;
+          case "/canconer":
+            return 4;
         }
       })()
     );
@@ -40,6 +43,7 @@ export default function TabNavigation() {
     if (newValue === 1) navigate("/musica");
     if (newValue === 2) navigate("/media");
     if (newValue === 3) navigate("/ruta");
+    if (newValue === 4) navigate("/canconer");
   };
 
   return (
@@ -60,6 +64,7 @@ export default function TabNavigation() {
           <BottomNavigationAction label="Música" icon={<MusicNoteIcon />} />
           <BottomNavigationAction label="Podcasts" icon={<PlayArrowIcon />} />
           <BottomNavigationAction label="Ruta" icon={<HikingIcon />} />
+          <BottomNavigationAction label="Cançoner" icon={<LyricsIcon />} />
         </BottomNavigation>
       </Box>
     </Toolbar>
