@@ -1,5 +1,9 @@
 import * as React from "react";
 import Typography from "@mui/material/Typography";
+import vallbona from "./vallbona.jpg";
+import poblet from "./poblet.jpg";
+import pena from "./pena.webp";
+import { Box } from "@mui/material";
 
 export default function Ruta({ day }) {
   return (
@@ -15,6 +19,18 @@ export default function Ruta({ day }) {
           <Typography variant="h5" sx={{ marginBottom: 3 }} gutterBottom>
             - Comparteix-ho amb la teva parella de recés
           </Typography>
+          <Box sx={{ display: "flex", justifyContent: "center" }}>
+            <img style={{ width: "80vw" }} src={vallbona} />
+          </Box>
+          <Box sx={{ display: "flex", justifyContent: "center" }}>
+            <Typography
+              variant="caption"
+              gutterBottom
+              sx={{ display: "block" }}
+            >
+              Monestir de Vallbona de les Monges
+            </Typography>
+          </Box>
         </>
       )}
       {day == 2 && (
@@ -28,6 +44,18 @@ export default function Ruta({ day }) {
             benaurances del Senyor? Compartiu les vostres respostes amb la
             parella del recés.
           </Typography>
+          <Box sx={{ display: "flex", justifyContent: "center" }}>
+            <img style={{ width: "80vw" }} src={poblet} />
+          </Box>
+          <Box sx={{ display: "flex", justifyContent: "center" }}>
+            <Typography
+              variant="caption"
+              gutterBottom
+              sx={{ display: "block" }}
+            >
+              Monestir de Poblet
+            </Typography>
+          </Box>
         </>
       )}
       {day == 3 && (
@@ -45,6 +73,18 @@ export default function Ruta({ day }) {
             - Comparteix les teves respostes amb la parella del recés. De
             baixada per la pista.
           </Typography>
+          <Box sx={{ display: "flex", justifyContent: "center" }}>
+            <img style={{ width: "80vw" }} src={pena} />
+          </Box>
+          <Box sx={{ display: "flex", justifyContent: "center" }}>
+            <Typography
+              variant="caption"
+              gutterBottom
+              sx={{ display: "block" }}
+            >
+              Mirador de la Pena
+            </Typography>
+          </Box>
         </>
       )}
     </div>
