@@ -12,5 +12,5 @@ const media = [
   },
 ];
 export default function Media() {
-  return <Player title={"Podcasts / vídeos / altres:"} media={media} />;
+  return <Player title={"Podcasts"} media={media} />;
 }
