@@ -7,6 +7,8 @@ import IconButton from "@mui/material/IconButton";
 import EventIcon from "@mui/icons-material/Event";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
+import Icon from "./icon.svg?react";
+import "./AppBar.css";
 
 export default function AppBar({ day, setDay }) {
   const [anchorElOptions, setAnchorElOptions] = React.useState(null);
@@ -25,6 +27,7 @@ export default function AppBar({ day, setDay }) {
     <Box sx={{ flexGrow: 1 }}>
       <AppBarMui position="fixed">
         <Toolbar>
+          <Icon className="icon" />
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Ruta del cister 2024 - Dia {day}
           </Typography>
