@@ -1,5 +1,9 @@
 import * as React from "react";
 import Typography from "@mui/material/Typography";
+import Accordion from "@mui/material/Accordion";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 export default function Pregaria() {
   return (
@@ -7,7 +11,33 @@ export default function Pregaria() {
       <Typography variant="h4" gutterBottom>
         Pregària
       </Typography>
-      <Typography variant="h5" gutterBottom>
+      <Accordion>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          Evangeli (Rm 12,9-21)
+        </AccordionSummary>
+        <AccordionDetails>
+          (...) Fugiu del mal, abraceu-vos al bé. Estimeu-vos afectuosament amb
+          un amor fratern, avanceu-vos a honorar-vos els uns als altres.
+          Esforceu-vos a ser sol·lícits. Sigueu fervents d’esperit, serviu el
+          Senyor. Que l’esperança us ompli d’alegria. Sigueu pacients en la
+          tribulació, constants en l’oració. Feu-vos solidaris de les
+          necessitats del poble sant. Practiqueu amb deler l’hospitalitat.
+          <br />
+          Beneïu els qui us persegueixen. Beneïu, no maleïu. Alegreu-vos amb els
+          qui estan alegres, ploreu amb els qui ploren. Viviu d’acord els uns
+          amb els altres. No aspireu a grandeses, sinó poseu-vos al nivell dels
+          humils. No us tingueu per savis. No torneu a ningú mal per mal; mireu
+          de fer el bé a tothom. Si és possible, i fins on depengui de
+          vosaltres, estigueu en pau amb tothom. Estimats, no us prengueu la
+          justícia per la vostra mà; deixeu que actuï la indignació divina, tal
+          com diu l’Escriptura: A mi em toca de passar comptes, jo donaré la
+          paga, diu el Senyor. Més aviat, si el teu enemic té fam, dona-li
+          menjar; si té set, dona-li beure: serà com si posessis brases sobre el
+          seu cap. No et deixis vèncer pel mal; al contrari, venç el mal amb el
+          bé.
+        </AccordionDetails>
+      </Accordion>
+      <Typography sx={{ marginTop: 3 }} variant="h5" gutterBottom>
         La vida es vida (Teresa de Ávila)
       </Typography>
       <Typography variant="body1" gutterBottom>
