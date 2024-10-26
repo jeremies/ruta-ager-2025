@@ -4,6 +4,31 @@ import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import "./biblija.scss";
+
+const evangeli = `
+<table class="biblija" width="100%">
+<tbody><tr class="tr-odd">
+<td class="text" width="100%" valign="bottom">
+<div class="p"> 
+<span class="v">9&nbsp;</span>(...) Fugiu del mal, abraceu-vos al bé. 
+<span class="v">10&nbsp;</span>Estimeu-vos afectuosament com a germans, avanceu-vos a honorar-vos els uns als altres. 
+<span class="v">11&nbsp;</span>Esforceu-vos a ser sol·lícits. Sigueu fervents d'esperit, serviu el Senyor. 
+<span class="v">12&nbsp;</span>Que l'esperança us ompli d'alegria. Sigueu pacients en la tribulació, constants en l'oració. 
+<span class="v">13&nbsp;</span>Feu-vos solidaris de les necessitats del poble sant. Practiqueu amb deler l'hospitalitat. 
+</div><div class="p"> 
+<span class="v">14&nbsp;</span>Beneïu els qui us persegueixen. Beneïu, no maleïu. 
+<span class="v">15&nbsp;</span>Alegreu-vos amb els qui estan alegres, ploreu amb els qui ploren. 
+<span class="v">16&nbsp;</span>Viviu d'acord els uns amb els altres. No aspireu a grandeses, sinó poseu-vos al nivell dels humils. No us tingueu per savis. 
+<span class="v">17&nbsp;</span>No torneu a ningú mal per mal; mireu de fer el bé a tothom. 
+<span class="v">18&nbsp;</span>Si és possible, i fins on depengui de vosaltres, estigueu en pau amb tothom. 
+<span class="v">19&nbsp;</span>Estimats, no us prengueu la justícia per la vostra mà; deixeu que actuï el càstig de Déu, tal com diu l'Escriptura: <span class="itw">A mi em toca de passar comptes, jo donaré la paga</span>, diu el Senyor. 
+<span class="v">20&nbsp;</span>Més aviat, <span class="itw">si el teu enemic té fam, dóna-li menjar; si té set, dóna-li beure: serà com si posessis brases sobre el seu cap</span>. 
+<span class="v">21&nbsp;</span>No et deixis vèncer pel mal; al contrari, venç el mal amb el bé. 
+</div></td>
+</tr>
+</tbody></table>
+`;
 
 export default function PregariaDia1() {
   return (
@@ -13,25 +38,7 @@ export default function PregariaDia1() {
           Evangeli (Rm 12,9-21)
         </AccordionSummary>
         <AccordionDetails>
-          (...) Fugiu del mal, abraceu-vos al bé. Estimeu-vos afectuosament amb
-          un amor fratern, avanceu-vos a honorar-vos els uns als altres.
-          Esforceu-vos a ser sol·lícits. Sigueu fervents d’esperit, serviu el
-          Senyor. Que l’esperança us ompli d’alegria. Sigueu pacients en la
-          tribulació, constants en l’oració. Feu-vos solidaris de les
-          necessitats del poble sant. Practiqueu amb deler l’hospitalitat.
-          <br />
-          Beneïu els qui us persegueixen. Beneïu, no maleïu. Alegreu-vos amb els
-          qui estan alegres, ploreu amb els qui ploren. Viviu d’acord els uns
-          amb els altres. No aspireu a grandeses, sinó poseu-vos al nivell dels
-          humils. No us tingueu per savis. No torneu a ningú mal per mal; mireu
-          de fer el bé a tothom. Si és possible, i fins on depengui de
-          vosaltres, estigueu en pau amb tothom. Estimats, no us prengueu la
-          justícia per la vostra mà; deixeu que actuï la indignació divina, tal
-          com diu l’Escriptura: A mi em toca de passar comptes, jo donaré la
-          paga, diu el Senyor. Més aviat, si el teu enemic té fam, dona-li
-          menjar; si té set, dona-li beure: serà com si posessis brases sobre el
-          seu cap. No et deixis vèncer pel mal; al contrari, venç el mal amb el
-          bé.
+          <div dangerouslySetInnerHTML={{ __html: evangeli }}></div>
         </AccordionDetails>
       </Accordion>
       <Typography sx={{ marginTop: 3 }} variant="h5" gutterBottom>
