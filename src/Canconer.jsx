@@ -10,9 +10,9 @@ export default function Canconer({ day }) {
       <Typography variant="h4" gutterBottom>
         Cançoner
       </Typography>
-      {day === 1 && <CanconerDia1 />}
-      {day === 2 && <CanconerDia2 />}
-      {day === 3 && <CanconerDia3 />}
+      {day == 1 && <CanconerDia1 />}
+      {day == 2 && <CanconerDia2 />}
+      {day == 3 && <CanconerDia3 />}
     </div>
   );
 }
