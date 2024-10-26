@@ -58,7 +58,7 @@ export default function TabNavigation() {
         >
           <BottomNavigationAction label="Pregària" icon={<ChurchIcon />} />
           <BottomNavigationAction label="Música" icon={<MusicNoteIcon />} />
-          <BottomNavigationAction label="Media" icon={<PlayArrowIcon />} />
+          <BottomNavigationAction label="Vídeos" icon={<PlayArrowIcon />} />
           <BottomNavigationAction label="Ruta" icon={<HikingIcon />} />
         </BottomNavigation>
       </Box>
