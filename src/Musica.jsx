@@ -31,12 +31,34 @@ const musicaDia2 = [
     url: "https://www.youtube.com/watch?v=_kPlskzdpew",
   },
 ];
+
+const musicaDia3 = [
+  {
+    label: "Si no estás, Íñigo Quintero.",
+    url: "https://www.youtube.com/watch?v=vldYYjCQ7jc",
+  },
+  {
+    label: "El carrer del perdó. Worship.cat",
+    url: "https://www.youtube.com/watch?v=eK584ngrVHM",
+  },
+  {
+    label: "Cruz del perdón, dd.aa.",
+    url: "https://www.youtube.com/watch?v=cteVsktDb1M",
+  },
+  {
+    label: "«Oceans», Hillson",
+    url: "https://www.youtube.com/watch?v=1m_sWJQm2fs",
+  },
+];
+
 export default function Musica({ day }) {
   let media;
   if (day == 1) {
     media = musicaDia1;
   } else if (day == 2) {
     media = musicaDia2;
+  } else if (day == 3) {
+    media = musicaDia3;
   }
   return <Player title={"Música"} media={media} />;
 }
