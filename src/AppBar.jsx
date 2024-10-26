@@ -17,6 +17,10 @@ export default function AppBar({ day, setDay }) {
   const handleCloseOptions = () => {
     setAnchorElOptions(null);
   };
+  const setDayAndClose = (d) => {
+    setDay(d);
+    handleCloseOptions();
+  };
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBarMui position="fixed">
@@ -37,9 +41,9 @@ export default function AppBar({ day, setDay }) {
             open={optionsOpen}
             onClose={handleCloseOptions}
           >
-            <MenuItem onClick={() => setDay(1)}> Dia 1</MenuItem>
-            <MenuItem onClick={() => setDay(2)}> Dia 2</MenuItem>
-            <MenuItem onClick={() => setDay(3)}> Dia 3</MenuItem>
+            <MenuItem onClick={() => setDayAndClose(1)}> Dia 1</MenuItem>
+            <MenuItem onClick={() => setDayAndClose(2)}> Dia 2</MenuItem>
+            <MenuItem onClick={() => setDayAndClose(3)}> Dia 3</MenuItem>
           </Menu>
         </Toolbar>
       </AppBarMui>
