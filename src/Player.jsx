@@ -23,7 +23,9 @@ export default function Player({ title, media }) {
             onChange={(e) => setUrl(e.target.value)}
           >
             {media.map((med) => (
-              <option value={med.url}>{med.label}</option>
+              <option key={med.url} value={med.url}>
+                {med.label}
+              </option>
             ))}
           </NativeSelect>
         </FormControl>
