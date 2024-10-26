@@ -1,7 +1,7 @@
 import * as React from "react";
 import Player from "./Player";
 
-const media = [
+const podcastsDia1 = [
   {
     label: "«Al salir al camino», Rezando voy",
     url: "https://rezando.es/public/rezandovoy/oraciones/2559/o.mp3",
@@ -11,6 +11,19 @@ const media = [
     url: "https://www.youtube.com/watch?v=F0zT5MNkq9g",
   },
 ];
-export default function Media() {
+
+const podcastsDia2 = [
+  {
+    label: "«¿Cómo puedo ser feliz según Jesús?». Capellans mexicans",
+    url: "https://www.youtube.com/watch?v=ArARbvGxphU&t=271s",
+  },
+];
+export default function Media({ day }) {
+  let media;
+  if (day == 1) {
+    media = podcastsDia1;
+  } else if (day == 2) {
+    media = podcastsDia2;
+  }
   return <Player title={"Podcasts"} media={media} />;
 }
