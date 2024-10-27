@@ -9,6 +9,11 @@ import Logo from "./logo.svg?react";
 import "./Player.css";
 export default function Player({ title, media }) {
   const [url, setUrl] = React.useState(media[0].url);
+
+  React.useEffect(() => {
+    setUrl(media[0].url);
+  }, [media]);
+
   return (
     <div>
       <Typography variant="h4" gutterBottom>
