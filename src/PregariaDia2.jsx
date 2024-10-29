@@ -94,6 +94,28 @@ export default function PregariaDia2() {
         el nostre fang, i modela'l una altra vegada perquè s'ompli de vida, de
         la teva Vida: una vida que traspua Regne de Déu.
       </Typography>
+      <Typography sx={{ marginTop: 3 }} variant="h5" gutterBottom>
+        Jesús és la meva felicitat{" "}
+      </Typography>
+      <Typography variant="body1" gutterBottom>
+        Jesús és la meva vida. La Paraula per a ser dita. La Veritat per a ser
+        proclamada. El Camí per a ser recorregut. La Llum per a ser encesa. La
+        Vida per a ser viscuda. L’Amor per a ser estimat. L’alegria per a ser
+        compartida. El sacrifici per a ser ofert. La Pau per a ser donada. El Pa
+        de Vida per a que sigui el meu sosteniment. El qui té fam, perquè sigui
+        alimentat. El qui té set, per a ser assedegat. El Despullat, per a ser
+        vestit. El Desemparat, per a ser atès. El Malalt per a ser guarit. El
+        Solitari, per a ser estimat. L’Indesitjable, per a ser volgut. El
+        Leprós, per a que se li rentin les ferides. L’Indigent, per a fer-li un
+        somriure. L’Alcohòlic, per a que sigui escoltat. El qui no té salut
+        mental, per a que sigui protegit. El més Petit, per a abraçar-lo. El
+        Cec, per a guiar-lo. El Mut, per a parlar amb ell. El tolit, per a
+        caminar per ell. El Drogoaddicte, per a ser comprès. La Prostituta, per
+        a allunyar-la del perill i ser la seva amiga. El Pres, per a ser
+        visitat. El Vell, per a ser acollit. Per a mi Jesús és Déu. Jesús és el
+        meu espòs. Jesús és la meva Vida. Jesús és el meu amor. Jesús és el meu
+        tot.
+      </Typography>
     </div>
   );
 }
