@@ -35,7 +35,7 @@ export default function PregariaDia1() {
     <div>
       <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          Evangeli (Rm 12,9-21)
+          Lectura (Rm 12,9-21)
         </AccordionSummary>
         <AccordionDetails>
           <div dangerouslySetInnerHTML={{ __html: evangeli }}></div>
