@@ -17,7 +17,7 @@ export default function Ruta({ day }) {
             - Fes memòria dels moments més feliços de la teva vida
           </Typography>
           <Typography variant="h5" sx={{ marginBottom: 3 }} gutterBottom>
-            - Comparteix-ho amb la teva parella de recés
+            - Comparteix-ho amb algun dels teus companys de ruta
           </Typography>
           <Box sx={{ display: "flex", justifyContent: "center" }}>
             <img style={{ width: "80vw" }} src={vallbona} />
@@ -40,9 +40,8 @@ export default function Ruta({ day }) {
             t’has sentit interpel·lat? desperten alguna cosa en tu?
           </Typography>
           <Typography variant="h5" sx={{ marginBottom: 3 }} gutterBottom>
-            - Per parelles: qui és Jesús per a tu? què signifiquen per a tu les
-            benaurances del Senyor? Compartiu les vostres respostes amb la
-            parella del recés.
+            - Qui és Jesús per a tu? Què signifiquen les benaurances del Senyor?
+            Comparteix la teva resposta amb algun company de la ruta
           </Typography>
           <Box sx={{ display: "flex", justifyContent: "center" }}>
             <img style={{ width: "80vw" }} src={poblet} />
@@ -61,7 +60,7 @@ export default function Ruta({ day }) {
       {day == 3 && (
         <>
           <Typography variant="h5" sx={{ marginBottom: 3 }} gutterBottom>
-            - Si la vida es pot definir com «un camí de retorn»: com et
+            - Si la vida es pot definir com «un camí de retorn a Déu»: com et
             relaciones amb el Senyor? Experimentes que aquest és el camí de la
             felicitat? Com ho vius? Has de canviar alguna cosa? Has d’afrontar
             algun interrogant? Com et tracta el Senyor? Com el tractes tu?
@@ -70,8 +69,7 @@ export default function Ruta({ day }) {
             - Què és el que et qüestiona més d’aquesta paràbola? Per què?
           </Typography>
           <Typography variant="h5" sx={{ marginBottom: 3 }} gutterBottom>
-            - Comparteix les teves respostes amb la parella del recés. De
-            baixada per la pista.
+            - Comparteix les teves respostes amb algun company
           </Typography>
           <Box sx={{ display: "flex", justifyContent: "center" }}>
             <img style={{ width: "80vw" }} src={pena} />

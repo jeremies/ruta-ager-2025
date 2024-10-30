@@ -5,6 +5,8 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import "./biblija.scss";
+import fillProdig from "./fill-prodig.jpeg";
+import { Box } from "@mui/material";
 
 const evangeli = `
 <table class="biblija" width="100%">
@@ -125,6 +127,14 @@ export default function PregariaDia3() {
         (José María R. Olaizola, SJ)
         <br />
       </Typography>
+      <Box sx={{ display: "flex", justifyContent: "center", marginTop: 3 }}>
+        <img style={{ width: "80vw" }} src={fillProdig} />
+      </Box>
+      <Box sx={{ display: "flex", justifyContent: "center" }}>
+        <Typography variant="caption" gutterBottom sx={{ display: "block" }}>
+          El retorn del fill pròdig (Rembrandt)
+        </Typography>
+      </Box>
     </div>
   );
 }
