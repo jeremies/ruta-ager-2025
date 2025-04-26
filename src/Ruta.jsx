@@ -39,12 +39,17 @@ export default function Ruta({ day }) {
       {day == 2 && (
         <>
           <Typography variant="h5" sx={{ marginBottom: 3 }} gutterBottom>
-            - Havent sentit les paraules de Jesús: t’has sentit identificat?
-            t’has sentit interpel·lat? desperten alguna cosa en tu?
+            a) no hi ha títol més gran que el de «ser fill». Com ho vius? Què
+            significa per a tu? Comparteix la teva resposta amb un company de
+            recés.
           </Typography>
           <Typography variant="h5" sx={{ marginBottom: 3 }} gutterBottom>
-            - Qui és Jesús per a tu? Què signifiquen les benaurances del Senyor?
-            Comparteix la teva resposta amb algun company de la ruta
+            b) et sents fracassat en alguna dimensió essencial de la teva vida?
+            Per què? Comparteix-ho amb el teu acompanyant.
+          </Typography>{" "}
+          <Typography variant="h5" sx={{ marginBottom: 3 }} gutterBottom>
+            c) quines són les temptacions «d’abandonar la teva fe» o de «no
+            viure-la a fons»? repassa-les mentre camines.
           </Typography>
           <Box sx={{ display: "flex", justifyContent: "center" }}>
             <img style={{ width: "80vw" }} src={poblet} />

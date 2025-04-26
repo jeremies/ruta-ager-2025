@@ -4,94 +4,6 @@ import Typography from "@mui/material/Typography";
 export default function CanconerDia2() {
   return (
     <>
-      <Typography sx={{ color: "red" }} variant="h5" gutterBottom>
-        Per a l’oració del matí
-      </Typography>
-      <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
-        EL FRUIT DEL SILENCI
-      </Typography>
-      <Typography variant="body1" gutterBottom>
-        El fruit del silenci és l’oració
-        <br />
-        El fruit de l’oració és la fe
-        <br />
-        El fruit de la fe és l’amor
-        <br />
-        El fruit de l’amor és el servei
-        <br />
-        El fruit del servei és la pau
-        <br />
-      </Typography>
-      <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
-        BENAURATS (Fer Sánchez){" "}
-      </Typography>
-      <Typography variant="body1" gutterBottom>
-        Benaurats aquells que avui encara confien
-        <br />
-        Benaurats aquells que no han perdut la por.
-        <br />
-        Benaurats aquells que canten tot el dia.
-        <br />
-        Benaurats aquells que no agafen bé el to
-        <br />
-        <br />
-        Benaurats seran els qui somien deixar-ho tot!
-        <br />
-        Benaurats seran els qui treballen amb les mans.
-        <br />
-        Benaurats seran als qui al banquet no han convidat!
-        <br />
-        Benaurats seran els qui no obliden els malalts.
-        <br />
-        <br />
-        Benaurats aquells que esperen en silenci.
-        <br />
-        Benaurats aquells que encara estan de dol.
-        <br />
-        Benaurats aquells que no han trobat la ruta.
-        <br />
-        Benaurats aquells que ploren pels demés.
-        <br />
-        <br />
-        Benaurats seran els que al mar moren ofegats!
-        <br />
-        Benaurats seran els qui s’esforcen en canviar.
-        <br />
-        Benaurats seran els qui no entenen les raons!
-        <br />
-        Benaurats seran els que s’estimen de debò.
-        <br />
-        <br />
-        Benaurats aquells que viuen en la fosca.
-        <br />
-        Benaurats aquells que el rumb els porta lluny.
-        <br />
-        Benaurats aquells que avui el llop assetja.
-        <br />
-        Benaurats aquells que trenquen soledats.
-        <br />
-        <br />
-        Benaurats seran els que caminen sense alè!
-        <br />
-        Benaurats seran els qui confien en la gent.
-        <br />
-        Benaurats seran els qui perdonen sense fe!
-        <br />
-        Benaurats seran els que al dimoni han desarmat.
-        <br />
-        <br />
-        Benaurats aquells que saben les respostes.
-        <br />
-        Benaurats aquells que vetllen pels petits.
-        <br />
-        Benaurats aquells que no han tingut infància.
-        <br />
-        Benaurats aquells que escolten tots els crits.
-        <br />
-      </Typography>
-      <Typography sx={{ color: "red" }} variant="h5" gutterBottom>
-        Per a la missa de la tarde{" "}
-      </Typography>
       <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
         EL SENYOR ÉS LA MEVA FORÇA{" "}
       </Typography>
@@ -103,68 +15,222 @@ export default function CanconerDia2() {
         En Ell confio i no tinc por     <br />
       </Typography>
       <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
-        ESTO QUE SOY ESO TE DOY{" "}
+        L’AJUDA EM VINDRÀ DEL SENYOR{" "}
       </Typography>
       <Typography variant="body1" gutterBottom>
-        A veces me pregunto ¿porqué yo? <br />
-        y sólo me respondes porque quiero. <br />
-        Es un misterio grande que nos llames <br />
-        así tal como somos a tu encuentro <br />
+        L’ajuda em vindrà del Senyor, 
         <br />
-        Entonces redescubro una verdad,
+        del Senyor, el nostre Déu, 
         <br />
-        mi vida, nuestra vida es un tesoro.
+        que ha fet el cel i la terra, 
         <br />
-        Se trata entonces sólo de ofrecerte
+        el cel i la terra.
         <br />
-        con todo nuestro amor, esto que somos
+      </Typography>
+      <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
+        JO TINC SET DE TU
+      </Typography>
+      <Typography variant="body1" gutterBottom>
+        Jo tinc set de Tu
         <br />
-                                            <br />
-        ¿QUÉ TE DARÉ, QUE TE DAREMOS?               <br />
-        SI TODO, TODO ES TU REGALO. <br />
-        TE OFRECERÉ, TE OFRECEREMOS, <br />
-        ESTO QUE SOMOS... ESTO QUE SOY, <br />
-        ESO TE DOY
+        tinc set del teu amor,
         <br />
+        Jo tinc set de Tu,
         <br />
-        Esto que soy, esto es lo que te doy, <br />
-        esto que somos, es lo que te damos <br />
-        Tu no desprecias nuestra vida humilde, <br />
-        se trata de poner todo en tus manos. <br />
-        <br />
-        Aquí van mis trabajos y mi fe,
-        <br />
-        mis mates, mis bajones y mis  sueños.
-        <br />
-        Y todas las personas que me diste,
-        <br />
-        desde mi corazón te las ofrezco.
-        <br />
-        <br />
-        ¿QUÉ TE DARÉ…
-        <br />
-        <br />
-        Vi tanta gente un domingo de sol,
-        <br />
-        me conmovió el latir de tantas vidas
-        <br />
-        Y adiviné tu abrazo gigantesco,
-        <br />
-        y sé que sus historias recibías.
-        <br />
-        <br />
-        Por eso tu altar luce vino y pan,
-        <br />
-        son signo y homenaje de la vida.
-        <br />
-        Misterio de ofrecerte y recibirnos,
-        <br />
-        humanidad que Cristo diviniza.
+        oh Font de llibertat.
         <br />
       </Typography>
 
       <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
-        BENAURATS (text del matí){" "}
+        QUEDA’T AMB NOSALTRES
+        <br />
+        Canta la teva fe
+      </Typography>
+      <Typography variant="body1" gutterBottom>
+        Pels camins d'aquesta vida, <br />
+        sense veure-ho del tot clar, <br />
+        amb el pas feixuc i força capficats. <br />
+        Has sortit al nostre encontre, <br />
+        t'has posat a caminar i per la nostra conversa has preguntat.
+        <br />
+        <br />
+        Ens expliques l'Escriptura <br />
+        com ningú no ho ha fet mai <br />
+        i et reveles en el gest de partir el pa… <br />
+        Queda't amb nosaltres que el dia ja comença a declinar <br />
+        queda't amb nosaltres qui camina amb tu, Jesús, mai no es perdrà. <br />
+        <br />
+        Quan arriba l'hora baixa Tu fas com el que se'n va, <br />
+        però nosaltres insistim entusiasmats. <br />
+        Has entrat a casa nostra, <br />
+        t'has deixat acomodar i et mirem als ulls amb el cor abrusat. <br />
+        <br />
+        Ens expliques l'Escriptura <br />
+        com ningú no ho ha fet mai
+        <br />
+        i et reveles en el gest de partir el pa… <br />
+        Queda't amb nosaltres <br />
+        que el dia ja comença a declinar <br />
+        queda't amb nosaltres <br />
+        qui camina amb tu, Jesús, mai no es perdrà.
+        <br />
+      </Typography>
+
+      <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
+        TU ETS QUI ENS CRIDA
+      </Typography>
+      <Typography variant="body1" gutterBottom>
+        Tu ets qui ens crida i en silenci venim (2).
+      </Typography>
+
+      <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
+        NO FIXEU ELS ULLS
+      </Typography>
+      <Typography variant="body1" gutterBottom>
+        No fixeu els ulls en ningú més que en Ell (2)
+        <br />
+        No fixeu els ulls en ningú més (2)
+        <br />
+        No fixeu els ulls en ningú més que en Ell.
+        <br />
+        <br />
+        No adoreu amics…
+        <br />
+        <br />
+        Només Ell és el camí, la veritat (2)
+        <br />
+        No fixeu els ulls en ningú més (2)
+        <br />
+        No fixeu els ulls en ningú més que en Ell.
+        <br />
+      </Typography>
+
+      <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
+        AMANDO HASTA EL EXTREMO Maite López
+      </Typography>
+      <Typography variant="body1" gutterBottom>
+        Déjame señor
+        <br />
+        Mirarte bien por dentro
+        <br />
+        Entrar en tu corazón
+        <br />
+        Y dejarme seducir
+        <br />
+        Y que aumenten mis deseos de querer ser como tú
+        <br />
+        Conocerte internamente
+        <br />
+        Amarte y seguirte más
+        <br />
+        Apostar mi vida junto a ti
+        <br />
+        Déjame verte señor
+        <br />
+        <br />
+        Amando hasta el extremo
+        <br />
+        Dejándote la piel
+        <br />
+        Entregando las entrañas
+        <br />
+        Tus entrañas de mujer
+        <br />
+        <br />
+        En una toalla y un lebrillo
+        <br />
+        En un acariciar los pies
+        <br />
+        En un mirarnos hasta el fondo
+        <br />
+        Sin nada que reprochar y<br />
+        Y sin nada que pedir, y con tanto para dar
+        <br />
+        <br />
+        Yo, el maestro y el señor
+        <br />
+        Ya no puedo amaros más
+        <br />
+        Pues como el padre me ha amado
+        <br />
+        Así os he amado yo
+        <br />
+        <br />
+        Os dejo mi vida entera en este vino y este pan
+        <br />
+        Este pan que soy yo mismo
+        <br />
+        Que me parto y que me doy
+        <br />
+        <br />
+        Mi deseo es que os améis de corazón
+        <br />
+        Yo también os quiero ver
+        <br />
+        <br />
+        Amando hasta el extremo
+        <br />
+        Dejándoos la piel
+        <br />
+        Entregando las entrañas
+        <br />
+        Como lo hace una mujer
+        <br />
+        <br />
+        En una toalla y un lebrillo
+        <br />
+        En un acariciar los pies
+        <br />
+        <br />
+        En un miraros hasta el fondo
+        <br />
+        Sin nada que reprochar
+        <br />
+        Y sin nada que pedir, y con tanto para dar
+        <br />
+        <br />
+        Sí, te doy todo lo que soy
+        <br />
+        Para que sigas amando
+        <br />
+        La lucha por la justicia
+        <br />
+        Entra en esta intimidad
+        <br />
+        <br />
+        Que se llena de personas y rostros que acariciar
+        <br />
+        Que me impulsa desde dentro a comprometerme más
+        <br />
+        Todos caben en tu corazón
+        <br />
+        Quiero seguirte señor
+        <br />
+        <br />
+        Amando hasta el extremo
+        <br />
+        Dejándome la piel
+        <br />
+        Entregando las entrañas
+        <br />
+        Mis entrañas de mujer
+        <br />
+        <br />
+        En una toalla y un lebrillo
+        <br />
+        En un acariciar los pies
+        <br />
+        En un miraros hasta el fondo
+        <br />
+        Sin nada que reprochar
+        <br />
+        Y sin nada que pedir, y con tanto para dar
+        <br />
+        <br />
+        Y sin nada que pedir, y con tanto para dar
+        <br />
+        Y sin nada que pedir, y con tanto para dar...
+        <br />
       </Typography>
     </>
   );

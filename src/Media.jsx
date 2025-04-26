@@ -14,8 +14,13 @@ const podcastsDia1 = [
 
 const podcastsDia2 = [
   {
-    label: "«¿Cómo puedo ser feliz según Jesús?». Capellans mexicans",
-    url: "https://www.youtube.com/watch?v=ArARbvGxphU&t=271s",
+    label: "«Fracasos», Enric Puigrós sj. En Vocesesejota.",
+    url: "https://www.youtube.com/watch?v=wcVcw3U5rLY",
+  },
+  {
+    label:
+      "«Faltan decisiones, no vocaciones», Nubar Hamparzoumian sj. En Vocesesejota.",
+    url: "https://www.youtube.com/watch?v=y7aq7Z0_VTo",
   },
 ];
 
