@@ -3,8 +3,8 @@ import Player from "./Player";
 
 const podcastsDia1 = [
   {
-    label: "«Al salir al camino», Rezando voy",
-    url: "https://rezando.es/public/rezandovoy/oraciones/2559/o.mp3",
+    label: "«La vida como peregrinación»",
+    url: "https://rezando.es/public/rezandovoy/oraciones/2557/o.mp3",
   },
   {
     label: "«2x01 Objetivo: la felicidad», por Marian Rojas",

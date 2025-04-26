@@ -18,9 +18,9 @@ export default defineConfig({
       },
 
       manifest: {
-        name: "Ruta Cister 2024",
-        short_name: "Ruta Cister 2024",
-        description: "Ruta Cister 2024",
+        name: "Ruta Cister 2025",
+        short_name: "Ruta Cister 2025",
+        description: "Ruta Cister 2025",
         theme_color: "#ffffff",
       },
 

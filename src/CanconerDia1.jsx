@@ -4,34 +4,6 @@ import Typography from "@mui/material/Typography";
 export default function CanconerDia1() {
   return (
     <>
-      <Typography sx={{ color: "red" }} variant="h5" gutterBottom>
-        Per a l’oració del matí
-      </Typography>
-      <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
-        EL FRUIT DEL SILENCI
-      </Typography>
-      <Typography variant="body1" gutterBottom>
-        El fruit del silenci és l’oració
-        <br />
-        El fruit de l’oració és la fe
-        <br />
-        El fruit de la fe és l’amor
-        <br />
-        El fruit de l’amor és el servei
-        <br />
-        El fruit del servei és la pau
-        <br />
-      </Typography>
-      <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
-        TU ETS QUI ENS CRIDA {" "}
-      </Typography>
-      <Typography variant="body1" gutterBottom>
-        Tu ets qui ens crida i en silenci venim
-      </Typography>
-
-      <Typography sx={{ color: "red" }} variant="h5" gutterBottom>
-        Per a la missa de la tarde{" "}
-      </Typography>
       <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
         LLOAT SIGUEU, OH SENYOR NOSTRE{" "}
       </Typography>
@@ -77,64 +49,6 @@ export default function CanconerDia1() {
         <br />
       </Typography>
       <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
-        CELEBREM 
-      </Typography>
-      <Typography variant="body1" gutterBottom>
-        Celebrem la llum,
-        <br />
-        Celebrem la vida,
-        <br />
-        Celebrem la vida,
-        <br />
-        Celebrem.
-        <br />
-      </Typography>
-      <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
-        PELS CAMINS D’AQUESTA VIDA
-      </Typography>
-      <Typography variant="body1" gutterBottom>
-        Pels camins d'aquesta vida, <br />
-        sense veure-ho del tot clar, <br />
-        amb el pas feixuc i força capficats. <br />
-        Has sortit al nostre encontre, <br />
-        t'has posat a caminar <br />
-        i per la nostra conversa has preguntat. <br />
-      </Typography>
-      <Typography variant="body1" gutterBottom sx={{ marginTop: 2 }}>
-        Ens expliques l'Escriptura <br />
-        com ningú no ho ha fet mai <br />
-        i et reveles en el gest de partir el pà… <br />
-      </Typography>
-      <Typography variant="body1" sx={{ fontWeight: "bold" }} gutterBottom>
-        Queda't amb nosaltres <br />
-        que el dia ja comença a declinar <br />
-        queda't amb nosaltres <br />
-        qui camina amb tu, Jesús, mai no es perdrà. <br />
-      </Typography>
-      <Typography variant="body1" gutterBottom>
-        Quan arriba l'hora baixa <br />
-        Tu fas com el que se'n va, <br />
-        però nosaltres t'insistim entusiasmats.
-        <br />
-        Has entrat a casa nostra, <br />
-        t'has deixat acomodar <br />
-        i et mirem als ulls amb el cor abrusat.
-        <br />
-      </Typography>
-      <Typography variant="body1" gutterBottom sx={{ marginTop: 2 }}>
-        Ens expliques l'Escriptura... <br />
-      </Typography>
-      <Typography variant="body1" gutterBottom sx={{ marginTop: 2 }}>
-        Aixequem-nos de la taula, <br />
-        anem a trobar els germans: <br />
-        "Realment és Ell, Déu l'ha ressuscitat"!
-        <br />
-        Aplegats en el seu Nom <br />
-        tornarem a caminar <br />
-        fins que torni ple de glòria i majestat!
-        <br />
-      </Typography>
-      <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
         RES NO ENS PODRÀ SEPARAR
       </Typography>
       <Typography variant="body1" gutterBottom>
@@ -142,11 +56,56 @@ export default function CanconerDia1() {
         de l’amor de Déu. <br />
       </Typography>
       <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
-        MAGNIFICAT
+        TE SEGUIRÉ{" "}
       </Typography>
       <Typography variant="body1" gutterBottom>
-        Magnificat, Magnificat <br />
-        Magnificat anima mea Dominum (2)
+        Te seguiré a donde me lleves <br />
+        sin adelantarme sin forzar el paso <br />
+        sabiamente ignorante, iré donde no sé <br />
+        puesto el corazón en Ti te seguiré.
+        <br />
+      </Typography>
+      <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
+        AVE MARIA{" "}
+      </Typography>
+      <Typography variant="body1" gutterBottom>
+        Quantes coses a la vida,
+        <br />
+        que semblen omplir-ho tot,
+        <br />
+        i no són més que mentides
+        <br />
+        que s'amaguen dins el cor.
+        <br />
+           
+        <br />
+        Tu has omplert la meva vida
+        <br />
+        estimant-me de debò.
+        <br />
+        Jo voldria, Mare bona, ser com tu...
+        <br />
+        <br />
+        En silenci escoltaves
+        <br />
+        la Paraula de Jesús,
+        <br />
+        i la feies Pa de vida
+        <br />
+        amb l'amor teu tan profund,
+        <br />
+        com llavor que cau a terra
+        <br />
+        i germina sense por.
+        <br />
+        Amb el cor ple d'alegria
+        <br />
+        et vull cantar:
+        <br />
+        <br />
+        AVE MARIA, AVE MARIA
+        <br />
+        AVE MARIA, AVE MARIA.
         <br />
       </Typography>
     </>

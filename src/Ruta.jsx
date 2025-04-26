@@ -1,6 +1,6 @@
 import * as React from "react";
 import Typography from "@mui/material/Typography";
-import vallbona from "./vallbona.jpg";
+import santescreus from "./santescreus.jpg";
 import poblet from "./poblet.jpg";
 import pena from "./pena.webp";
 import { Box } from "@mui/material";
@@ -14,13 +14,16 @@ export default function Ruta({ day }) {
       {day == 1 && (
         <>
           <Typography variant="h5" sx={{ marginBottom: 3 }} gutterBottom>
-            - Fes memòria dels moments més feliços de la teva vida
+            - Abraham és el pare en la fe. Pensa que va començar el seu
+            pelegrinatge «sortint de casa seva». Com surto de casa meva a la
+            recerca dels altres? Evito caure en la temptació de quedar-me en la
+            meva «zona de confort»? Com la supero?
           </Typography>
           <Typography variant="h5" sx={{ marginBottom: 3 }} gutterBottom>
-            - Comparteix-ho amb algun dels teus companys de ruta
+            - Quin és el camí que Déu t’ha convidat a recorrer en la teva vida?
           </Typography>
           <Box sx={{ display: "flex", justifyContent: "center" }}>
-            <img style={{ width: "80vw" }} src={vallbona} />
+            <img style={{ width: "80vw" }} src={santescreus} />
           </Box>
           <Box sx={{ display: "flex", justifyContent: "center" }}>
             <Typography
@@ -28,7 +31,7 @@ export default function Ruta({ day }) {
               gutterBottom
               sx={{ display: "block" }}
             >
-              Monestir de Vallbona de les Monges
+              Monestir de Santes Creus
             </Typography>
           </Box>
         </>

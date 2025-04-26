@@ -4,16 +4,12 @@ import Player from "./Player";
 
 const musicaDia1 = [
   {
-    label: "«La Felicidad», Izaro",
-    url: "https://www.youtube.com/watch?v=rzp5foKF9Ps",
+    label: "Cançó «Beneiré el Senyor», Worship.cat",
+    url: "https://www.youtube.com/watch?v=fsj_msYI1CI",
   },
   {
-    label: "Sálvame, Íñigo Quintero",
-    url: "https://www.youtube.com/watch?v=6UAinV-h6VI",
-  },
-  {
-    label: "«Sé que no estic sol», Worship.cat",
-    url: "https://www.youtube.com/watch?v=HdV20_4pdDo",
+    label: "Cançó «Oceans». Hillson.",
+    url: "https://www.youtube.com/watch?v=1m_sWJQm2fs",
   },
 ];
 

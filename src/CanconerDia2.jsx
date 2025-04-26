@@ -162,61 +162,9 @@ export default function CanconerDia2() {
         humanidad que Cristo diviniza.
         <br />
       </Typography>
-      <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
-        TE SEGUIRÉ{" "}
-      </Typography>
-      <Typography variant="body1" gutterBottom>
-        Te seguiré a donde me lleves <br />
-        sin adelantarme sin forzar el paso <br />
-        sabiamente ignorante, iré donde no sé <br />
-        puesto el corazón en Ti te seguiré.
-        <br />
-      </Typography>
+
       <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
         BENAURATS (text del matí){" "}
-      </Typography>
-      <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
-        AVE MARIA{" "}
-      </Typography>
-      <Typography variant="body1" gutterBottom>
-        Quantes coses a la vida,
-        <br />
-        que semblen omplir-ho tot,
-        <br />
-        i no són més que mentides
-        <br />
-        que s'amaguen dins el cor.
-        <br />
-           
-        <br />
-        Tu has omplert la meva vida
-        <br />
-        estimant-me de debò.
-        <br />
-        Jo voldria, Mare bona, ser com tu...
-        <br />
-        <br />
-        En silenci escoltaves
-        <br />
-        la Paraula de Jesús,
-        <br />
-        i la feies Pa de vida
-        <br />
-        amb l'amor teu tan profund,
-        <br />
-        com llavor que cau a terra
-        <br />
-        i germina sense por.
-        <br />
-        Amb el cor ple d'alegria
-        <br />
-        et vull cantar:
-        <br />
-        <br />
-        AVE MARIA, AVE MARIA
-        <br />
-        AVE MARIA, AVE MARIA.
-        <br />
       </Typography>
     </>
   );
