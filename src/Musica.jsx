@@ -26,20 +26,12 @@ const musicaDia2 = [
 
 const musicaDia3 = [
   {
-    label: "Si no estás, Íñigo Quintero.",
-    url: "https://www.youtube.com/watch?v=vldYYjCQ7jc",
+    label: "«Sin miedo», Cristobal Fones sj.",
+    url: "https://www.youtube.com/watch?v=PneT5asOq_M",
   },
   {
-    label: "El carrer del perdó. Worship.cat",
-    url: "https://www.youtube.com/watch?v=eK584ngrVHM",
-  },
-  {
-    label: "Cruz del perdón, dd.aa.",
-    url: "https://www.youtube.com/watch?v=cteVsktDb1M",
-  },
-  {
-    label: "«Oceans», Hillson",
-    url: "https://www.youtube.com/watch?v=1m_sWJQm2fs",
+    label: "«Hágase», Camila Garrido i Cristóbal Fones sj.",
+    url: "https://www.youtube.com/watch?v=6TabT1p1MbI",
   },
 ];
 

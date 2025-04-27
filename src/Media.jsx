@@ -26,8 +26,13 @@ const podcastsDia2 = [
 
 const podcastsDia3 = [
   {
-    label: "Reconciliación, rezando voy.",
-    url: "https://rezando.es/public/rezandovoy/oraciones/2554/o.mp3",
+    label:
+      "«Nace la pregunta. ¿Será real?». Cf. Rezando voy. A partir de la crida que Jesús fa als deixebles de Joan (Jn 1,35-51).",
+    url: "https://rezando.es/public/rezandovoy/oraciones/4383/o.mp3",
+  },
+  {
+    label: "Entrevista a Esther Sanz. Bisbat de Lleida. Llegir i/o escoltar.",
+    url: "https://www.bisbatlleida.org/sites/default/files/audio/Entrevista%20Esther%20Sanz.mp3",
   },
 ];
 

@@ -2,7 +2,7 @@ import * as React from "react";
 import Typography from "@mui/material/Typography";
 import santescreus from "./santescreus.jpg";
 import poblet from "./poblet.jpg";
-import pena from "./pena.webp";
+import pobletInterior from "./poblet-interior.jpg";
 import { Box } from "@mui/material";
 
 export default function Ruta({ day }) {
@@ -68,19 +68,16 @@ export default function Ruta({ day }) {
       {day == 3 && (
         <>
           <Typography variant="h5" sx={{ marginBottom: 3 }} gutterBottom>
-            - Si la vida es pot definir com «un camí de retorn a Déu»: com et
-            relaciones amb el Senyor? Experimentes que aquest és el camí de la
-            felicitat? Com ho vius? Has de canviar alguna cosa? Has d’afrontar
-            algun interrogant? Com et tracta el Senyor? Com el tractes tu?
+            - avui ets a Poblet. Els monjos tenen vocació de romandre en un
+            lloc. En quin lloc t’agradaria romandre «per sempre»? Quina és, en
+            el fons, la teva vocació? Què té preparat Déu per a tu?
+            Imagina-ho... comparteix-ho amb el teu acompanyant, si t’ajuda.
           </Typography>
           <Typography variant="h5" sx={{ marginBottom: 3 }} gutterBottom>
-            - Què és el que et qüestiona més d’aquesta paràbola? Per què?
-          </Typography>
-          <Typography variant="h5" sx={{ marginBottom: 3 }} gutterBottom>
-            - Comparteix les teves respostes amb algun company
+            - quina és «la teva vocació personal»?
           </Typography>
           <Box sx={{ display: "flex", justifyContent: "center" }}>
-            <img style={{ width: "80vw" }} src={pena} />
+            <img style={{ width: "80vw" }} src={pobletInterior} />
           </Box>
           <Box sx={{ display: "flex", justifyContent: "center" }}>
             <Typography
@@ -88,7 +85,7 @@ export default function Ruta({ day }) {
               gutterBottom
               sx={{ display: "block" }}
             >
-              Mirador de la Pena
+              Monestir de Poblet
             </Typography>
           </Box>
         </>

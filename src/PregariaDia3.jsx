@@ -12,45 +12,29 @@ const evangeli = `
 <table class="biblija" width="100%">
 <tbody><tr class="tr-odd">
 <td class="text" width="100%" valign="bottom">
-<div class="s"> Paràbola del fill pròdig 
+<div class="s"> Jesús i Zaqueu 
+</div><span class="c">19</span> 
+<div class="p"> 
+<span class="v">1&nbsp;</span>Jesús va entrar a Jericó i travessava la ciutat. 
+<span class="v">2&nbsp;</span>Hi havia un home que es deia Zaqueu, cap de publicans. Era un home ric. 
+<span class="v">3&nbsp;</span>Zaqueu buscava de veure qui era Jesús, però la gentada li ho impedia, perquè era petit d'estatura. 
+<span class="v">4&nbsp;</span>Llavors s'avançà corrent i es va enfilar dalt d'un sicòmor per poder veure Jesús, que havia de passar per allí. 
+<span class="v">5&nbsp;</span>Quan Jesús va arribar en aquell indret, alçà els ulls i li digué: 
+</div><div class="p"> --Zaqueu, baixa de pressa, que avui m'haig d'hostatjar a casa teva. 
 </div><div class="p"> 
-</div><div class="p"> --Un home tenia dos fills. 
-<span class="v">12&nbsp;</span>Un dia, el més jove digué al pare: 
-</div><div class="p"> »--Pare, dóna'm la part de l'herència que em toca. 
-</div><div class="p"> »Ell els va repartir els béns. 
-<span class="v">13&nbsp;</span>Al cap d'uns quants dies, el més jove va vendre's tot el que tenia i se'n va anar amb els diners en un país llunyà. 
-</div><div class="p"> »Un cop allí, dilapidà la seva fortuna portant una vida dissoluta. 
-<span class="v">14&nbsp;</span>Quan s'ho hagué malgastat tot, vingué una gran fam en aquell país i començà a passar necessitat. 
-<span class="v">15&nbsp;</span>Llavors es va llogar a un propietari d'aquell país, que l'envià als seus camps a pasturar porcs. 
-<span class="v">16&nbsp;</span>Tenia ganes d'atipar-se de les garrofes que menjaven els porcs, però ningú no li'n donava. 
-<span class="v">17&nbsp;</span>Llavors reflexionà i es digué: "Quants jornalers del meu pare tenen pa de sobres i jo aquí m'estic morint de fam! 
-<span class="v">18&nbsp;</span>Aniré a trobar el meu pare i li diré: Pare, he pecat contra el cel i contra tu. 
-<span class="v">19&nbsp;</span>Ja no mereixo que em diguin fill teu; tracta'm com un dels teus jornalers." 
-<span class="v">20&nbsp;</span>I se n'anà a trobar el seu pare. 
-</div><div class="p"> »Encara era lluny, que el seu pare el veié i es commogué, corregué a tirar-se-li al coll i el besà. 
-<span class="v">21&nbsp;</span>El fill li digué: 
-</div><div class="p"> »--Pare, he pecat contra el cel i contra tu. Ja no mereixo que em diguin fill teu. 
+<span class="v">6&nbsp;</span>Ell baixà de pressa i el va acollir amb alegria. 
+<span class="v">7&nbsp;</span>Tots els qui ho van veure murmuraven contra Jesús i deien: 
+</div><div class="p"> --Ha anat a allotjar-se a casa d'un pecador! 
 </div><div class="p"> 
-<span class="v">22&nbsp;</span>»Però el pare digué als seus criats: 
-</div><div class="p"> »--De pressa, porteu el vestit millor i poseu-l'hi, poseu-li també l'anell i les sandàlies, 
-<span class="v">23&nbsp;</span>porteu el vedell gras i mateu-lo, mengem i celebrem-ho, 
-<span class="v">24&nbsp;</span>perquè aquest fill meu era mort i ha tornat a la vida, estava perdut i l'hem retrobat. 
-</div><div class="p"> »I es posaren a celebrar-ho. 
+<span class="v">8&nbsp;</span>Però Zaqueu, dret davant el Senyor, li digué: 
+</div><div class="p"> --Senyor, dono als pobres la meitat dels meus béns, i als qui he exigit més diners del compte, els en restitueixo quatre vegades més. 
 </div><div class="p"> 
-<span class="v">25&nbsp;</span>»Mentrestant, el fill gran era al camp. Quan, de tornada, s'acostava a la casa, va sentir músiques i balls 
-<span class="v">26&nbsp;</span>i cridà un dels criats per preguntar-li què era allò. 
-<span class="v">27&nbsp;</span>Ell li digué: 
-</div><div class="p"> »--El teu germà ha tornat. El teu pare l'ha retrobat en bona salut i ha fet matar el vedell gras. 
-</div><div class="p"> 
-<span class="v">28&nbsp;</span>»El germà gran s'indignà i no volia entrar. Llavors el seu pare va sortir i el pregava. 
-<span class="v">29&nbsp;</span>Però ell li respongué: 
-</div><div class="p"> »--Fa molts anys que et serveixo sense desobeir mai ni un de sol dels teus manaments, i tu encara no m'has donat un cabrit per a fer festa amb els meus amics. 
-<span class="v">30&nbsp;</span>En canvi, quan ha tornat aquest fill teu després de consumir els teus béns amb prostitutes, has fet matar el vedell gras. 
-</div><div class="p"> 
-<span class="v">31&nbsp;</span>»El pare li contestà: 
-</div><div class="p"> »--Fill, tu sempre ets amb mi, i tot el que és meu és teu. 
-<span class="v">32&nbsp;</span>Però calia celebrar-ho i alegrar-se, perquè aquest germà teu era mort i ha tornat a la vida, estava perdut i l'hem retrobat. 
+<span class="v">9&nbsp;</span>Jesús li digué: 
+</div><div class="p"> --Avui ha entrat la salvació en aquesta casa; perquè també aquest home és fill d'Abraham. 
+<span class="v">10&nbsp;</span>El Fill de l'home ha vingut a buscar i salvar allò que s'havia perdut. 
 </div></td>
+</tr>
+<tr><td><br>
 </tr>
 </tbody></table>
 `;
@@ -60,81 +44,122 @@ export default function PregariaDia3() {
     <div>
       <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          Lectura (Lc 15,11-32)
+          Lectura (Lc 19,1-10)
         </AccordionSummary>
         <AccordionDetails>
           <div dangerouslySetInnerHTML={{ __html: evangeli }}></div>
         </AccordionDetails>
       </Accordion>
       <Typography sx={{ marginTop: 3 }} variant="h5" gutterBottom>
-        Prendre’s seriosament a Déu
+        Vocació
       </Typography>
       <Typography variant="body1" gutterBottom>
-        Seràs feliç si em prens seriosament i segueixes els meus camins.
-        <br />
-        Perquè la teva vida serà plena, serà sòlida, tindrà sentit.
-        <br />
-        Menjaràs del fruit del teu treball, trobaràs l’alegria i t’anirà bé.
-        <br />
-        Això no significa que no tinguis problemes, però et guiaré en el camí.
-        <br />
-        Aquesta és la benedicció que ofereixo a aquell que prengui seriosament
-        la meva crida.
-        <br />
-        Jo et beneiré, i veuràs el progrés dels fills i filles de Déu tots els
-        dies de la teva vida.
+        Prendre la meva vida per a que la converteixis en pa. Prendre la meva
+        vida per a donar-te-la. Prendre la meva vida per a repetir el teu gest i
+        posar-me als peus de la Humanitat. Prendre la meva vida per a
+        retornar-te allò que vas sembrar en mi. Em parteixo per a no tancar-me i
+        aïllar-me. Em parteixo i em buido, i així poder ésser. Em parteixo per a
+        celebrar en memòria teva. Em parteixo per a que no es faci la meva
+        voluntat. Em parteixo per a desplegar-me en la teva abundància. Em
+        parteixo en els sentits nous que mai he conegut. Em parteixo en els
+        altres i em descobreixo cada cop més encès. Em parteixo sense retenir i
+        sense especular. Em parteixo en aquesta terra on mana llet i mel. Camino
+        cap a Jerusalem i a prop de l’altra riba.
         <br />
         <br />
-        (salm 127 a la manera de Dios, Rezandovoy)
+        «Vocación», per Marcos Alemán. Cf. Rezando voy.
         <br />
       </Typography>
       <Typography sx={{ marginTop: 3 }} variant="h5" gutterBottom>
-        El Déu de tots
+        Vocació de guarir
       </Typography>
       <Typography variant="body1" gutterBottom>
-        Ets el Déu dels fràgils, els febles, els impurs,
+        Només en Tu trobo el meu descans.
         <br />
-        els que llencen la pedra i els que reben la pedrada.
+        Tu ets, Senyor,
         <br />
-        Els que acullen la bona notícia i els que, <br />
-        sobrats, li donen l'esquena.
+        l’oli i l’ ungüent de les meves ferides,
         <br />
-        El Déu dels creients i dels ateus <br />
-        que t'ignoren encara que viuen en Tu.
+        l’arbre que em dona l’ombra,
         <br />
-        El Déu dels qui etiqueten i els etiquetats,
+        l’aigua fresca en la meva sequedat,
         <br />
-        els que classifiquen i els desclassats,
+        ets la mà que m’aixeca i em sosté,
         <br />
-        els fiscals, i els defensors,
+        les arrels on comencen a créixer les flors,
         <br />
-        els correctes, els incorrectes,
+        les ales que em fan volar lliurement.
         <br />
-        els inamovibles i els que no paren quiets.
+        El món camina malalt i amb el cap baix.
         <br />
-        El Déu dels clàssics i els transgressors.
+        Odi, injustícia, pobres i violència <br />
+        són els seus principals mals.
         <br />
-        El Déu dels gèlids, els tebis i els ardents.
+        Segueix cridant a homes i a dones
         <br />
-        El Déu dels satisfets i els descoratjats,
+        que tinguin per vocació guarir:
         <br />
-        els valents i els acovardits.
+        guarir tristeses, guarir històries,
         <br />
-        Ets Déu de tots. <br />
-        Per què no acabem d'entendre-ho?
+        guarir famílies, guarir l’Església,
         <br />
+        guarir ferides, guarir la terra.
         <br />
-        (José María R. Olaizola, SJ)
+        A Tu aixeco els meus ulls,
+        <br />
+        estimat Metge de l’ànima.
+        <br />
+        En tu espero i poso tota la meva confiança. <br />
+        <br />
+        Fermín Negre
         <br />
       </Typography>
-      <Box sx={{ display: "flex", justifyContent: "center", marginTop: 3 }}>
-        <img style={{ width: "80vw" }} src={fillProdig} />
-      </Box>
-      <Box sx={{ display: "flex", justifyContent: "center" }}>
-        <Typography variant="caption" gutterBottom sx={{ display: "block" }}>
-          El retorn del fill pròdig (Rembrandt)
-        </Typography>
-      </Box>
+      <Typography sx={{ marginTop: 3 }} variant="h5" gutterBottom>
+        Existe y resuena
+      </Typography>
+      <Typography variant="body1" gutterBottom>
+        Existe desde el principio
+        <br />
+        y resuena hasta en los abismos.
+        <br />
+        Comienza con un balbuceo
+        <br />
+        y tiene tanta fuerza, que grita.
+        <br />
+        Jamás hueca
+        <br />
+        y cuando se pronuncia es danza, fiesta.
+        <br />
+        Sin el Espíritu es letra muerta.
+        <br />
+        Si se escucha y se pone en práctica,
+        <br />
+        bienaventuranza viviente
+        <br />
+        en los gestos,
+        <br />
+        en la vida, en las calles.
+        <br />
+        Es profecía, caricia, pasión,
+        <br />
+        dolor y resurrección.
+        <br />
+        Llevarla es pura vocación,
+        <br />
+        anunciarla es mandato, mandato de amor.
+        <br />
+        Saborearla se vuelve vital.
+        <br />
+        Es de todos, por eso, de Dios.
+        <br />
+        Dime, Palabra hecha carne:
+        <br />
+        en mi vida, ¿qué palabra tuya soy?
+        <br />
+        <br />
+        Malvi Baldellou. Cf. Rezando voy
+        <br />
+      </Typography>
     </div>
   );
 }
