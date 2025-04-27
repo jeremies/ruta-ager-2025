@@ -13,17 +13,23 @@ export default function Canconer({ day }) {
 
   const handleChange = (panel) => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false);
+    setTimeout(() => {
+      const anchor = document.querySelector(`#${panel}`);
+
+      anchor.scrollIntoView({ behavior: "smooth", block: "center" });
+    }, 1000);
   };
 
   return (
     <div>
       <Accordion
-        id="panel1"
         expanded={expanded === "panel1"}
         onChange={handleChange("panel1")}
       >
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography>1.- LLOAT SIGUEU, OH SENYOR NOSTRE </Typography>
+          <Typography id="panel1">
+            1.- LLOAT SIGUEU, OH SENYOR NOSTRE{" "}
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography sx={{ fontWeight: "bold" }} variant="body1" gutterBottom>
@@ -71,12 +77,11 @@ export default function Canconer({ day }) {
       </Accordion>
 
       <Accordion
-        id="panel2"
         expanded={expanded === "panel2"}
         onChange={handleChange("panel2")}
       >
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography> 2.- RES NO ENS PODRÀ SEPARAR</Typography>
+          <Typography id="panel2"> 2.- RES NO ENS PODRÀ SEPARAR</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography variant="body1" gutterBottom>
@@ -87,12 +92,11 @@ export default function Canconer({ day }) {
       </Accordion>
 
       <Accordion
-        id="panel3"
         expanded={expanded === "panel3"}
         onChange={handleChange("panel3")}
       >
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography> 3.- TE SEGUIRÉ </Typography>
+          <Typography id="panel3"> 3.- TE SEGUIRÉ </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography variant="body1" gutterBottom>
@@ -105,12 +109,11 @@ export default function Canconer({ day }) {
         </AccordionDetails>
       </Accordion>
       <Accordion
-        id="panel4"
         expanded={expanded === "panel4"}
         onChange={handleChange("panel4")}
       >
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography> 4.- AVE MARIA </Typography>
+          <Typography id="panel4"> 4.- AVE MARIA </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography variant="body1" gutterBottom>
@@ -157,12 +160,11 @@ export default function Canconer({ day }) {
       </Accordion>
 
       <Accordion
-        id="panel5"
         expanded={expanded === "panel5"}
         onChange={handleChange("panel5")}
       >
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography> 5.- EL SENYOR ÉS LA MEVA FORÇA </Typography>
+          <Typography id="panel5"> 5.- EL SENYOR ÉS LA MEVA FORÇA </Typography>
         </AccordionSummary>
         <AccordionDetails>
           {" "}
@@ -177,12 +179,14 @@ export default function Canconer({ day }) {
       </Accordion>
 
       <Accordion
-        id="panel6"
         expanded={expanded === "panel6"}
         onChange={handleChange("panel6")}
       >
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography> 6.- L’AJUDA EM VINDRÀ DEL SENYOR </Typography>
+          <Typography id="panel6">
+            {" "}
+            6.- L’AJUDA EM VINDRÀ DEL SENYOR{" "}
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
           {" "}
@@ -200,12 +204,11 @@ export default function Canconer({ day }) {
       </Accordion>
 
       <Accordion
-        id="panel7"
         expanded={expanded === "panel7"}
         onChange={handleChange("panel7")}
       >
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography>7.- JO TINC SET DE TU</Typography>
+          <Typography id="panel7">7.- JO TINC SET DE TU</Typography>
         </AccordionSummary>
         <AccordionDetails>
           {" "}
@@ -223,12 +226,11 @@ export default function Canconer({ day }) {
       </Accordion>
 
       <Accordion
-        id="panel8"
         expanded={expanded === "panel8"}
         onChange={handleChange("panel8")}
       >
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography> 8.- QUEDA’T AMB NOSALTRES</Typography>
+          <Typography id="panel8"> 8.- QUEDA’T AMB NOSALTRES</Typography>
         </AccordionSummary>
         <AccordionDetails>
           {" "}
@@ -265,12 +267,11 @@ export default function Canconer({ day }) {
         </AccordionDetails>
       </Accordion>
       <Accordion
-        id="panel9"
         expanded={expanded === "panel9"}
         onChange={handleChange("panel9")}
       >
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography> 9.- TU ETS QUI ENS CRIDA</Typography>
+          <Typography id="panel9"> 9.- TU ETS QUI ENS CRIDA</Typography>
         </AccordionSummary>
         <AccordionDetails>
           {" "}
@@ -281,12 +282,11 @@ export default function Canconer({ day }) {
       </Accordion>
 
       <Accordion
-        id="panel10"
         expanded={expanded === "panel10"}
         onChange={handleChange("panel10")}
       >
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography>10.- NO FIXEU ELS ULLS</Typography>
+          <Typography id="panel10">10.- NO FIXEU ELS ULLS</Typography>
         </AccordionSummary>
         <AccordionDetails>
           {" "}
@@ -312,12 +312,11 @@ export default function Canconer({ day }) {
       </Accordion>
 
       <Accordion
-        id="panel11"
         expanded={expanded === "panel11"}
         onChange={handleChange("panel11")}
       >
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography> 11.- AMANDO HASTA EL EXTREMO </Typography>
+          <Typography id="panel11"> 11.- AMANDO HASTA EL EXTREMO </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography variant="body1" gutterBottom>
@@ -448,12 +447,11 @@ export default function Canconer({ day }) {
       </Accordion>
 
       <Accordion
-        id="panel12"
         expanded={expanded === "panel12"}
         onChange={handleChange("panel12")}
       >
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography> 12.- MAGNIFICAT </Typography>
+          <Typography id="panel12"> 12.- MAGNIFICAT </Typography>
         </AccordionSummary>
         <AccordionDetails>
           {" "}
@@ -466,12 +464,11 @@ export default function Canconer({ day }) {
       </Accordion>
 
       <Accordion
-        id="panel13"
         expanded={expanded === "panel13"}
         onChange={handleChange("panel13")}
       >
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography> 13.- CANTA AL·LELUIA</Typography>
+          <Typography id="panel13"> 13.- CANTA AL·LELUIA</Typography>
         </AccordionSummary>
         <AccordionDetails>
           {" "}
@@ -488,12 +485,14 @@ export default function Canconer({ day }) {
         </AccordionDetails>
       </Accordion>
       <Accordion
-        id="panel14"
         expanded={expanded === "panel14"}
         onChange={handleChange("panel14")}
       >
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography> 14.- L’AMOR NO PASSARÀ MAI Canta la teva fe</Typography>
+          <Typography id="panel14">
+            {" "}
+            14.- L’AMOR NO PASSARÀ MAI Canta la teva fe
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
           {" "}
@@ -542,12 +541,11 @@ export default function Canconer({ day }) {
       </Accordion>
 
       <Accordion
-        id="panel15"
         expanded={expanded === "panel15"}
         onChange={handleChange("panel15")}
       >
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography> 15.- ESTO QUE SOY, ESO TE DOY</Typography>
+          <Typography id="panel15"> 15.- ESTO QUE SOY, ESO TE DOY</Typography>
         </AccordionSummary>
         <AccordionDetails>
           {" "}
