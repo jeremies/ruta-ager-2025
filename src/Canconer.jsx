@@ -13,10 +13,13 @@ export default function Canconer({ day }) {
 
   const handleChange = (panel) => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false);
-    setTimeout(() => {
+    const interval = setInterval(() => {
       const anchor = document.querySelector(`#${panel}`);
 
-      anchor.scrollIntoView({ behavior: "smooth", block: "center" });
+      anchor.scrollIntoView({ behavior: "instant", block: "center" });
+    }, 50);
+    setTimeout(() => {
+      clearInterval(interval);
     }, 1000);
   };
 
