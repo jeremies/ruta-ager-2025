@@ -5,7 +5,7 @@ export default function CanconerDia3() {
   return (
     <>
       <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
-        MAGNIFICAT{" "}
+        12.- MAGNIFICAT{" "}
       </Typography>
       <Typography variant="body1" gutterBottom>
         Magnificat, Magnificat <br />
@@ -14,7 +14,7 @@ export default function CanconerDia3() {
       </Typography>
 
       <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
-        CANTA AL·LELUIA
+        13.- CANTA AL·LELUIA
       </Typography>
       <Typography variant="body1" gutterBottom>
         Canta al·leluia al Senyor
@@ -28,7 +28,7 @@ export default function CanconerDia3() {
       </Typography>
 
       <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
-        L’AMOR NO PASSARÀ MAI Canta la teva fe
+        14.- L’AMOR NO PASSARÀ MAI Canta la teva fe
       </Typography>
       <Typography variant="body1" gutterBottom>
         Si jo parlés mil llengües però no estimés,
@@ -73,7 +73,7 @@ export default function CanconerDia3() {
       </Typography>
 
       <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
-        ESTO QUE SOY, ESO TE DOY
+        15.- ESTO QUE SOY, ESO TE DOY
       </Typography>
       <Typography variant="body1" gutterBottom>
          A veces me pregunto ¿porqué yo?

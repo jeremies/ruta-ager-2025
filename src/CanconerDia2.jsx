@@ -5,7 +5,7 @@ export default function CanconerDia2() {
   return (
     <>
       <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
-        EL SENYOR ÉS LA MEVA FORÇA{" "}
+        5.- EL SENYOR ÉS LA MEVA FORÇA{" "}
       </Typography>
       <Typography variant="body1" gutterBottom>
         El Senyor és la meva força                <br />
@@ -15,7 +15,7 @@ export default function CanconerDia2() {
         En Ell confio i no tinc por     <br />
       </Typography>
       <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
-        L’AJUDA EM VINDRÀ DEL SENYOR{" "}
+        6.- L’AJUDA EM VINDRÀ DEL SENYOR{" "}
       </Typography>
       <Typography variant="body1" gutterBottom>
         L’ajuda em vindrà del Senyor, 
@@ -28,7 +28,7 @@ export default function CanconerDia2() {
         <br />
       </Typography>
       <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
-        JO TINC SET DE TU
+        7.- JO TINC SET DE TU
       </Typography>
       <Typography variant="body1" gutterBottom>
         Jo tinc set de Tu
@@ -42,7 +42,7 @@ export default function CanconerDia2() {
       </Typography>
 
       <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
-        QUEDA’T AMB NOSALTRES
+        8.- QUEDA’T AMB NOSALTRES
         <br />
         Canta la teva fe
       </Typography>
@@ -77,14 +77,14 @@ export default function CanconerDia2() {
       </Typography>
 
       <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
-        TU ETS QUI ENS CRIDA
+        9.- TU ETS QUI ENS CRIDA
       </Typography>
       <Typography variant="body1" gutterBottom>
         Tu ets qui ens crida i en silenci venim (2).
       </Typography>
 
       <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
-        NO FIXEU ELS ULLS
+        10.- NO FIXEU ELS ULLS
       </Typography>
       <Typography variant="body1" gutterBottom>
         No fixeu els ulls en ningú més que en Ell (2)
@@ -106,7 +106,7 @@ export default function CanconerDia2() {
       </Typography>
 
       <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
-        AMANDO HASTA EL EXTREMO Maite López
+        11.- AMANDO HASTA EL EXTREMO Maite López
       </Typography>
       <Typography variant="body1" gutterBottom>
         Déjame señor

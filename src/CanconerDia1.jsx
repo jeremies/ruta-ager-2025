@@ -5,7 +5,7 @@ export default function CanconerDia1() {
   return (
     <>
       <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
-        LLOAT SIGUEU, OH SENYOR NOSTRE{" "}
+        1.- LLOAT SIGUEU, OH SENYOR NOSTRE{" "}
       </Typography>
       <Typography sx={{ fontWeight: "bold" }} variant="body1" gutterBottom>
         Lloat sigueu, oh senyor nostre. <br />
@@ -49,14 +49,14 @@ export default function CanconerDia1() {
         <br />
       </Typography>
       <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
-        RES NO ENS PODRÀ SEPARAR
+        2.- RES NO ENS PODRÀ SEPARAR
       </Typography>
       <Typography variant="body1" gutterBottom>
         Res no ens podrà separar (3) <br />
         de l’amor de Déu. <br />
       </Typography>
       <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
-        TE SEGUIRÉ{" "}
+        3.- TE SEGUIRÉ{" "}
       </Typography>
       <Typography variant="body1" gutterBottom>
         Te seguiré a donde me lleves <br />
@@ -66,7 +66,7 @@ export default function CanconerDia1() {
         <br />
       </Typography>
       <Typography variant="h6" sx={{ fontWeight: "bold" }} gutterBottom>
-        AVE MARIA{" "}
+        4.- AVE MARIA{" "}
       </Typography>
       <Typography variant="body1" gutterBottom>
         Quantes coses a la vida,
