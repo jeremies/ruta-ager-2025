@@ -29,7 +29,7 @@ export default function AppBar({ day, setDay }) {
         <Toolbar>
           <Icon className="icon" />
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Ruta del cister 2025 - Dia {day}
+            Ruta del cister 2025 {day !== 4 && `- Dia ${day}`}
           </Typography>
           <IconButton
             size="large"
@@ -47,6 +47,7 @@ export default function AppBar({ day, setDay }) {
             <MenuItem onClick={() => setDayAndClose(1)}> Dia 1</MenuItem>
             <MenuItem onClick={() => setDayAndClose(2)}> Dia 2</MenuItem>
             <MenuItem onClick={() => setDayAndClose(3)}> Dia 3</MenuItem>
+            <MenuItem onClick={() => setDayAndClose(4)}>Annex</MenuItem>
           </Menu>
         </Toolbar>
       </AppBarMui>

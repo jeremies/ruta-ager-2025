@@ -11,6 +11,7 @@ import { useLocation } from "react-router-dom";
 import Media from "./Media.jsx";
 import Ruta from "./Ruta.jsx";
 import Canconer from "./Canconer.jsx";
+import Annex from "./Annex.jsx";
 
 const DAY = "day";
 
@@ -38,17 +39,25 @@ function PaperMain() {
         }}
       >
         <AppBar day={day} setDay={setDayWithLocalStorage} />
-        <Box sx={{ padding: 2 }}>
-          <Toolbar />
-          <Routes>
-            <Route path="/" element={<Pregaria day={day} />} />
-            <Route path="/musica" element={<Musica day={day} />} />
-            <Route path="/media" element={<Media day={day} />} />
-            <Route path="/ruta" element={<Ruta day={day} />} />
-            <Route path="/canconer" element={<Canconer day={day} />} />
-          </Routes>
-        </Box>
-        <TabNavigation />
+        {day !== 4 && (
+          <Box sx={{ padding: 2 }}>
+            <Toolbar />
+            <Routes>
+              <Route path="/" element={<Pregaria day={day} />} />
+              <Route path="/musica" element={<Musica day={day} />} />
+              <Route path="/media" element={<Media day={day} />} />
+              <Route path="/ruta" element={<Ruta day={day} />} />
+              <Route path="/canconer" element={<Canconer day={day} />} />
+            </Routes>
+          </Box>
+        )}
+        {day === 4 && (
+          <Box sx={{ padding: 2 }}>
+            <Toolbar />
+            <Annex />
+          </Box>
+        )}
+        {day !== 4 && <TabNavigation />}
       </Paper>
     </>
   );
