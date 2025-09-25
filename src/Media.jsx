@@ -14,13 +14,8 @@ const podcastsDia1 = [
 
 const podcastsDia2 = [
   {
-    label: "«Fracasos», Enric Puigrós sj. En Vocesesejota.",
-    url: "https://www.youtube.com/watch?v=wcVcw3U5rLY",
-  },
-  {
-    label:
-      "«Faltan decisiones, no vocaciones», Nubar Hamparzoumian sj. En Vocesesejota.",
-    url: "https://www.youtube.com/watch?v=y7aq7Z0_VTo",
+    label: "«Misericordia». Rezando voy.",
+    url: "https://rezando.es/public/rezandovoy/oraciones/1087/o.mp3",
   },
 ];
 

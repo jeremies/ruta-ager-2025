@@ -28,30 +28,18 @@ export default function Ruta({ day }) {
       {day == 2 && (
         <>
           <Typography variant="h5" sx={{ marginBottom: 3 }} gutterBottom>
-            a) no hi ha títol més gran que el de «ser fill». Com ho vius? Què
-            significa per a tu? Comparteix la teva resposta amb un company de
-            recés.
+            1. La imatge de Déu és fonamental per a la fe. Quina imatge de Déu
+            «ha pesat» més en tu en els primers anys de la teva vida? I avui, en
+            què ha canviat segons ens han plantejat aquest matí?
           </Typography>
           <Typography variant="h5" sx={{ marginBottom: 3 }} gutterBottom>
-            b) et sents fracassat en alguna dimensió essencial de la teva vida?
-            Per què? Comparteix-ho amb el teu acompanyant.
+            2. Pensa aquesta frase d’un místic cristià: «anem a Déu sense Déu».
+            Què vol dir? Considera-ho mentre camines i prega a Déu sobre la
+            imatge que tu tens d’Ell.
           </Typography>{" "}
           <Typography variant="h5" sx={{ marginBottom: 3 }} gutterBottom>
-            c) quines són les temptacions «d’abandonar la teva fe» o de «no
-            viure-la a fons»? repassa-les mentre camines.
+            3. Quina imatge de Déu et transmet la creu de Jesús?
           </Typography>
-          <Box sx={{ display: "flex", justifyContent: "center" }}>
-            <img style={{ width: "80vw" }} src={poblet} />
-          </Box>
-          <Box sx={{ display: "flex", justifyContent: "center" }}>
-            <Typography
-              variant="caption"
-              gutterBottom
-              sx={{ display: "block" }}
-            >
-              Monestir de Poblet
-            </Typography>
-          </Box>
         </>
       )}
       {day == 3 && (

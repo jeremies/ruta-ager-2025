@@ -606,6 +606,108 @@ export default function Canconer() {
           </Typography>
         </AccordionDetails>
       </Accordion>
+
+      <Accordion>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          <Typography id="panel15"> 18.- TU MODO</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          {" "}
+          <Typography variant="body1" gutterBottom>
+            Jesús al contemplar en tu vida
+            <br />
+            El modo que tú tienes de tratar a los demás
+            <br />
+            Me dejo interpelar por tu ternura
+            <br />
+            Tu forma de amar nos mueve a amar
+            <br />
+            Tu trato es como el agua cristalina
+            <br />
+            Que limpia y acompaña el caminar
+            <br />
+            <br />
+            Jesús enséñame tu modo
+            <br />
+            De hacer sentir al otro más humano
+            <br />
+            Que tus pasos sean mis pasos
+            <br />
+            Mi modo de proceder
+            <br />
+            <br />
+            Jesús hazme sentir con tus sentimientos
+            <br />
+            Mirar con tu mirada
+            <br />
+            Comprometer mi acción
+            <br />
+            Donarme hasta la muerte por el reino
+            <br />
+            Defender la vida hasta la cruz
+            <br />
+            Amar a cada uno como amigo
+            <br />
+            Y en la oscuridad llevar tu luz
+            <br />
+            <br />
+            Jesús enséñame tu modo
+            <br />
+            De hacer sentir al otro más humano
+            <br />
+            Que tus pasos sean mis pasos
+            <br />
+            Mi modo de proceder
+            <br />
+            <br />
+            Jesús yo quiero ser compasivo con quien sufre
+            <br />
+            Buscando la justicia, compartiendo nuestra fe
+            <br />
+            Que encuentre una auténtica armonía
+            <br />
+            Entre lo que creo y quiero ser
+            <br />
+            Mis ojos sean fuente de alegría
+            <br />
+            Que abrace tu manera de ser
+            <br />
+            <br />
+            Jesús enséñame tu modo
+            <br />
+            De hacer sentir al otro más humano
+            <br />
+            Que tus pasos sean mis pasos
+            <br />
+            Mi modo de proceder
+            <br />
+            <br />
+            Quisiera conocerte, Jesús tal como eres
+            <br />
+            Tu imagen sobre mi es lo que transformará
+            <br />
+            Mi corazón en uno como el tuyo
+            <br />
+            Que sale de sí mismo para dar
+            <br />
+            Capaz de amar al padre y los hermanos
+            <br />
+            Que va sirviendo al reino en libertad
+            <br />
+            <br />
+            Jesús enséñame tu modo
+            <br />
+            De hacer sentir al otro más humano
+            <br />
+            Que tus pasos sean mis pasos
+            <br />
+            Mi modo de proceder
+            <br />
+            Enséñame tu modo Señor
+            <br />
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
     </div>
   );
 }

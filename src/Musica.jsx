@@ -15,12 +15,12 @@ const musicaDia1 = [
 
 const musicaDia2 = [
   {
-    label: "Cançó «Tu modo», de Cristobal Fones",
-    url: "https://www.youtube.com/watch?v=5wXCLdnOQj4",
+    label: "«Amigo de publicanos». Cristóbal Fones.",
+    url: "https://www.youtube.com/watch?v=lpfijSJUE3k",
   },
   {
-    label: "Cançó: «Et seguiré», Worship.cat.",
-    url: "https://www.youtube.com/watch?v=5OsC53O_lYU",
+    label: "«Tu modo». Cristóbal Fones.",
+    url: "https://www.youtube.com/watch?v=5wXCLdnOQj4",
   },
 ];
 

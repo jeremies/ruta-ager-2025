@@ -10,60 +10,39 @@ const evangeli = `
 <table class="biblija" width="100%">
 <tbody><tr class="tr-odd">
 <td class="text" width="100%" valign="bottom">
-<div class="s"> Baptisme de Jesús 
-</div><div class="r"> (<a href="javascript:openref('/biblija.cgi?set=15&amp;l=ca&amp;pos=1&amp;qall=0&amp;idq=0&amp;idp0=25&amp;m=%4D%63+1');">Mc 1</a>,9-11;<a href="javascript:openref('/biblija.cgi?set=15&amp;l=ca&amp;pos=1&amp;qall=0&amp;idq=0&amp;idp0=25&amp;m=%4C%63+3');"> Lc 3</a>,21-22;<a href="javascript:openref('/biblija.cgi?set=15&amp;l=ca&amp;pos=1&amp;qall=0&amp;idq=0&amp;idp0=25&amp;m=%4A%6E+1');"> Jn 1</a>,32-34) 
+<div class="s"> El judici final 
 </div><div class="p"> 
-<span class="v">13&nbsp;</span>Llavors Jesús vingué de Galilea i es va presentar a Joan, vora el Jordà, a fer-se batejar per ell. 
-<span class="v">14&nbsp;</span>Però Joan s'hi oposava, dient: 
-</div><div class="p"> --Sóc jo el qui necessita ser batejat per tu, i tu véns a mi! 
+<span class="v">31&nbsp;</span>»Quan el Fill de l'home vindrà ple de glòria, acompanyat de tots els àngels, s'asseurà en el seu tron gloriós. 
+<span class="v">32&nbsp;</span>Tots els pobles es reuniran davant seu, i ell destriarà la gent els uns dels altres, com un pastor separa les ovelles de les cabres, 
+<span class="v">33&nbsp;</span>i posarà les ovelles a la seva dreta i les cabres a la seva esquerra. 
+<span class="v">34&nbsp;</span>Aleshores el rei dirà als de la seva dreta: 
+</div><div class="p"> »--Veniu, beneïts del meu Pare, rebeu en herència el Regne que ell us tenia preparat des de la creació del món. 
+<span class="v">35&nbsp;</span>Perquè tenia fam, i em donàreu menjar; tenia set, i em donàreu beure; era foraster, i em vau acollir; 
+<span class="v">36&nbsp;</span>anava despullat, i em vau vestir; estava malalt, i em vau visitar; era a la presó, i vinguéreu a veure'm. 
 </div><div class="p"> 
-<span class="v">15&nbsp;</span>Jesús li respongué: 
-</div><div class="p"> --Deixa'm fer, ara. Convé que complim d'aquesta manera tot el que Déu vol. 
-</div><div class="p"> Aleshores Joan el deixà fer. 
+<span class="v">37&nbsp;</span>»Llavors els justos li respondran: 
+</div><div class="p"> »--Senyor, ¿quan et vam veure afamat, i et donàrem menjar; o que tenies set, i et donàrem beure? 
+<span class="v">38&nbsp;</span>¿Quan et vam veure foraster, i et vam acollir; o que anaves despullat, i et vam vestir? 
+<span class="v">39&nbsp;</span>¿Quan et vam veure malalt o a la presó, i vinguérem a veure't? 
 </div><div class="p"> 
-<span class="v">16&nbsp;</span>Un cop batejat, Jesús sortí de l'aigua. Davant d'ell el cel s'obrí, i Jesús veié l'Esperit de Déu que baixava com un colom i venia damunt d'ell. 
-<span class="v">17&nbsp;</span>I una veu digué des del cel: 
-</div><div class="p"> --Aquest és el meu Fill, el meu estimat, en qui m'he complagut. 
+<span class="v">40&nbsp;</span>»El rei els respondrà: 
+</div><div class="p"> »--Us ho asseguro: tot allò que fèieu a un d'aquests germans meus més petits, a mi m'ho fèieu. 
+</div><div class="p"> 
+<span class="v">41&nbsp;</span>»Després dirà als de la seva esquerra: 
+</div><div class="p"> »--Aparteu-vos de mi, maleïts, aneu al foc etern, preparat per al diable i els seus àngels. 
+<span class="v">42&nbsp;</span>Perquè tenia fam, i no em donàreu menjar; tenia set, i no em donàreu beure; 
+<span class="v">43&nbsp;</span>era foraster, i no em vau acollir; anava despullat, i no em vau vestir; estava malalt o a la presó, i no em vau visitar. 
+</div><div class="p"> 
+<span class="v">44&nbsp;</span>»Llavors ells li respondran: 
+</div><div class="p"> »--Senyor, ¿quan et vam veure afamat o assedegat, foraster o despullat, malalt o a la presó, i no et vam assistir? 
+</div><div class="p"> 
+<span class="v">45&nbsp;</span>»Ell els contestarà: 
+</div><div class="p"> »--Us ho asseguro: tot allò que deixàveu de fer a un d'aquests més petits, m'ho negàveu a mi. 
+</div><div class="p"> 
+<span class="v">46&nbsp;</span>»I aquests aniran al càstig etern, mentre que els justos aniran a la vida eterna. 
 </div></td>
 </tr>
-<tr><td><br>
-</tr>
-</tbody></table>
 
-<table class="biblija" width="100%">
-<tbody><tr class="tr-odd">
-<td class="text" width="100%" valign="bottom">
-<div class="s"> Temptacions de Jesús 
-</div><div class="r"> (<a href="javascript:openref('/biblija.cgi?set=15&amp;l=ca&amp;pos=1&amp;qall=0&amp;idq=0&amp;idp0=25&amp;m=%4D%63+1');">Mc 1</a>,12-13;<a href="javascript:openref('/biblija.cgi?set=15&amp;l=ca&amp;pos=1&amp;qall=0&amp;idq=0&amp;idp0=25&amp;m=%4C%63+4');"> Lc 4</a>,1-13) 
-</div><span class="c">4</span> 
-<div class="p"> 
-<span class="v">1&nbsp;</span>Aleshores l'Esperit va conduir Jesús al desert perquè el diable el temptés. 
-<span class="v">2&nbsp;</span>Jesús dejunà quaranta dies i quaranta nits, i al final tenia fam. 
-<span class="v">3&nbsp;</span>El temptador se li acostà i li digué: 
-</div><div class="p"> --Si ets Fill de Déu, digues que aquestes pedres es tornin pans. 
-</div><div class="p"> 
-<span class="v">4&nbsp;</span>Però ell li va respondre: 
-</div><div class="p"> --L'Escriptura diu: <span class="itw">L'home no viu només de pa; viu de tota paraula que surt de la boca de Déu.</span> 
-</div><div class="p"> 
-<span class="v">5&nbsp;</span>Llavors el diable se l'enduu a la ciutat santa, el posa dalt de tot del temple 
-<span class="v">6&nbsp;</span>i li diu: 
-</div><div class="p"> --Si ets Fill de Déu, tira't daltabaix. Diu l'Escriptura: <span class="itw">Donarà ordre als seus àngels, i et duran a les palmes de les mans perquè els teus peus no ensopeguin amb les pedres.</span> 
-</div><div class="p"> 
-<span class="v">7&nbsp;</span>Jesús li contestà: 
-</div><div class="p"> --També diu l'Escriptura: <span class="itw">No temptis el Senyor, el teu Déu.</span> 
-</div><div class="p"> 
-<span class="v">8&nbsp;</span>Després el diable se l'enduu dalt d'una muntanya molt alta, li mostra tots els reialmes del món i la seva glòria 
-<span class="v">9&nbsp;</span>i li diu: 
-</div><div class="p"> --Et donaré tot això si et prosternes i m'adores. 
-</div><div class="p"> 
-<span class="v">10&nbsp;</span>Li diu Jesús: 
-</div><div class="p"> --Vés-te'n, Satanàs! Diu l'Escriptura: <span class="itw">Adora el Senyor, el teu Déu, dóna culte a ell tot sol.</span> 
-</div><div class="p"> 
-<span class="v">11&nbsp;</span>Llavors el diable el va deixar, i vingueren uns àngels i el servien. 
-</div></td>
-</tr>
-<tr><td><br>
-</tr>
 </tbody></table>
 `;
 
@@ -72,71 +51,172 @@ export default function PregariaDia2() {
     <div>
       <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          Lectura (Mt 3,13-17. 4,1-11)
+          Lectura (Mt 25,31-46)
         </AccordionSummary>
         <AccordionDetails>
           <div dangerouslySetInnerHTML={{ __html: evangeli }}></div>
         </AccordionDetails>
       </Accordion>
       <Typography sx={{ marginTop: 3 }} variant="h5" gutterBottom>
-        A la teva manera
+        A
       </Typography>
       <Typography variant="body1" gutterBottom>
-        Senyor, ensenya'm la teva manera de tractar amb els deixebles, els
-        pecadors, els nens, els fariseus, Pilats, Herodes... Ensenya'm a ser
-        compassiu amb els qui pateixen: els pobres, els leprosos, els cecs, els
-        paralítics... Mostra'm de quina manera comunicaves les teves emocions
-        profundes fins a vessar llàgrimes… Aquesta és la teva imatge que
-        contemplo a l'Evangeli: noble, sublim, amable, exemplar, posseïdor de la
-        perfecta harmonia entre vida i doctrina. Una manera dura per a tu
-        mateix, plena de privacions i treballs, curulla de bondat i amor als
-        altres, amb el desig de servir-los. La teva relació constant amb el Pare
-        en la pregària, abans de l'alba o mentre els altres dormien, era consol
-        i alè per a predicar el Regne. Ensenya'm la teva manera de mirar, tal i
-        com vas mirar Pere per a trucar-lo o per a aixecar-lo; o tal i com vas
-        mirar el jove ric que no es va decidir a seguir-te; o tal i com vas
-        mirar, bondadós, les multituds amuntegades al teu voltant; o amb ira
-        quan els teus ulls es fixaven en els hipòcrites. Voldria conèixer-te tal
-        i com ets: la imatge del teu rostre em canviarà. Desitjaria veure't com
-        Pere quan, esglaiat de sorpresa després de la pesca miraculosa, pren
-        consciència de la pròpia condició de pecador en la teva presència.
-        <br></br>
-        <br></br>
-        Adaptació de la pregària de Pedro Arrupe sj. «Invocació a Jesucrist com
-        a model». Cf. Rezando voy.
+        Déu s’acosta a nosaltres
+        <br />
+        en cada ésser del cosmos,
+        <br />
+        que és per a nosaltres
+        <br />
+        llar, aliment,
+        <br />
+        tasca i horitzó.
+        <br />
+        <br />
+        Comunió còsmica
+        <br />
+        que ens uneix a Déu
+        <br />
+        en la vida que ens omple
+        <br />
+        a través dels sentits,
+        <br />
+        do i presència seva
+        <br />
+        en nosaltres sense mesura!
+        <br />
+        <br />
+        Déu lliure i únic
+        <br />
+        en l’últim racó
+        <br />
+        de callada intimitat,
+        <br />
+        on cada persona
+        <br />
+        es fa consistent.
+        <br />
+        <br />
+        “Solo Dios basta”,
+        <br />
+        però un Déu
+        <br />
+        a qui no n’hi ha prou
+        <br />
+        d’anar ell sol
+        <br />
+        per tot l’univers.
+        <br />
+        <br />
+        Benjamín González Buelta sj. Rezando voy.
+        <br />
       </Typography>
       <Typography sx={{ marginTop: 3 }} variant="h5" gutterBottom>
-        Senyor Jesús
+        B
       </Typography>
       <Typography variant="body1" gutterBottom>
-        Senyor Jesús!<br></br>
-        La meva força i el meu fracàs ets Tu.<br></br>
-        <br></br>
-        La meva herència i la meva pobresa.<br></br>
-        Tu, la meva justícia.<br></br>
-        Jesús,<br></br>
-        la meva guerra i la meva pau.<br></br>
-        ¡La meva lliure llibertat!<br></br>
-        <br></br>
-        La meva mort i vida<br></br>
-        Tu,<br></br>
-        Paraula dels meus crits,<br></br>
-        Silenci de la meva espera,<br></br>
-        Testimoni dels meus somnis,<br></br>
-        Creu de la meva creu.<br></br>
-        Causa de la meva amargor,<br></br>
-        Perdó del meu egoisme,<br></br>
-        Crim del meu procés,<br></br>
-        Jutge del meu pobre plor,<br></br>
-        Raó de la meva esperança.<br></br>
-        <br></br>
-        ¡Tu!<br></br>
-        La meva terra promesa ets Tu...<br></br>
-        La Pasqua de la meva Pasqua ets Tu<br></br>
-        Tu ets la nostra glòria per sempre,<br></br>
-        Senyor Jesús.<br></br>
-        <br></br>
-        Pere Casaldàliga
+        No pots mirar indiferent
+        <br />
+        aquest caos que m’habita
+        <br />
+        I, al seu temps, l’aniràs ordenant.
+        <br />
+        Es fa la llum i començo a poder mirar
+        <br />
+        i anomenar allò que m’ocorre.
+        <br />
+        Però no vols que desaparegui la nit,
+        <br />
+        i em regales la lluna i els estels.
+        <br />
+        I en el caos obres horitzons,
+        <br />
+        sembres vida,
+        <br />
+        engendres.
+        <br />
+        Apostes, sempre arriscat,
+        <br />
+        per nosaltres
+        <br />
+        l’abundància de tanta vida.
+        <br />
+        Fes germinar, com en el cosmos,
+        <br />
+        tot allò que vulguis en nosaltres.
+        <br />
+        Aquí estem, desitjant que tanta Vida
+        <br />
+        ens habiti.
+        <br />
+        <br />
+        Matu Hardoy. Rezando voy.
+        <br />
+      </Typography>
+      <Typography sx={{ marginTop: 3 }} variant="h5" gutterBottom>
+        C
+      </Typography>
+      <Typography variant="body1" gutterBottom>
+        Sense l’Esperit Sant, Déu és lluny, Crist resta en el passat, l’Evangeli
+        és lletra morta, l’Església una simple organització, l’autoritat seria
+        dominació, la missió una propaganda, el culte una evocació i l’acció
+        cristiana una moral d’esclaus. Però amb la presència de l’Esperit, el
+        cosmos s’eleva i gemega en el part del Regne, Crist ressuscitat és
+        present, l’Evangeli és potència de vida, l’Església significa la comunió
+        trinitària, l’autoritat és un servei d’alliberament, la missió és un
+        Pentecostès, la litúrgia és memòria i anticipació, l’acció humana és
+        divinitzada.
+        <br />
+        <br />
+        Ignasi IV Hazin, patriarca de l’església greco-ortodoxa d’Antioquia.
+        <br />
+      </Typography>
+      <Typography sx={{ marginTop: 3 }} variant="h5" gutterBottom>
+        D
+      </Typography>
+      <Typography variant="body1" gutterBottom>
+        Sempre em van dir que eres a dalt,
+        <br />
+        que eres poderós, omniscient i jutge.
+        <br />
+        que legions d’àngels et servien,
+        <br />
+        i que tenies corona, mantell, anell de rei.
+        <br />
+        En el teu nom i amb la bíblia, des de segles,
+        <br />
+        es proclamen reis, papes, presidents.
+        <br />
+        Se’ls asseu en trons, se’ls reverencia
+        <br />
+        com a ambaixadors i portaveus teus.
+        <br />
+        Com imaginar-te, doncs, sense atributs?
+        <br />
+        Com pensar el món sense jerarquies?
+        <br />
+        Si tu ets un Déu sense poder, agenollat,
+        <br />
+        tot trontolla: la fe, la política, l’economia.
+        <br />
+        Però així vas voler ser, un Déu a l’inrevés.
+        <br />
+        Sense rang sagrat, sense encens, sense lletanies,
+        <br />
+        deixant-te a les meves mans com a pa de cada dia,
+        <br />
+        els teus peus darrere els meus, fins a defallir.
+        <br />
+        Ja no et vull voler, sense voler d’aquesta manera,
+        <br />
+        sempre en direcció contrària al càlcul i al rèdit,
+        <br />
+        servint sense requisits, fins que el cor s’obri
+        <br />
+        a una mort amb sentit, a una vida sense barreres.
+        <br />
+        <br />
+        Seve Lázaro sj. Rezando voy.
+        <br />
       </Typography>
     </div>
   );
