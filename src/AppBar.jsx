@@ -29,7 +29,7 @@ export default function AppBar({ day, setDay }) {
         <Toolbar>
           <Icon className="icon" />
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Ruta del cister 2025 {day !== 4 && `- Dia ${day}`}
+            SOM IMATGES DE DÉU {day !== 4 && `- Dia ${day}`}
           </Typography>
           <IconButton
             size="large"
