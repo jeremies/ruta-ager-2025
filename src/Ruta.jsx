@@ -14,26 +14,15 @@ export default function Ruta({ day }) {
       {day == 1 && (
         <>
           <Typography variant="h5" sx={{ marginBottom: 3 }} gutterBottom>
-            - Abraham és el pare en la fe. Pensa que va començar el seu
-            pelegrinatge «sortint de casa seva». Com surto de casa meva a la
-            recerca dels altres? Evito caure en la temptació de quedar-me en la
-            meva «zona de confort»? Com la supero?
+            1. Quan caminis cap a Corsà, prega repetidament i sense pressa:
+            «Senyor Jesús, tingues pietat de mi».
           </Typography>
           <Typography variant="h5" sx={{ marginBottom: 3 }} gutterBottom>
-            - Quin és el camí que Déu t’ha convidat a recorrer en la teva vida?
+            2. Contesta tot caminant, aquests interrogants. Quina imatge d’home
+            he interioritzat i, potser, no està d’acord amb l’Evangeli que vull
+            viure? Quins són aquells models de persona que m’influencien més i,
+            potser, m’impedeixen viure la vida com l’Esperit de Déu em convida?
           </Typography>
-          <Box sx={{ display: "flex", justifyContent: "center" }}>
-            <img style={{ width: "80vw" }} src={santescreus} />
-          </Box>
-          <Box sx={{ display: "flex", justifyContent: "center" }}>
-            <Typography
-              variant="caption"
-              gutterBottom
-              sx={{ display: "block" }}
-            >
-              Monestir de Santes Creus
-            </Typography>
-          </Box>
         </>
       )}
       {day == 2 && (

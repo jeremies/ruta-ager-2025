@@ -3,12 +3,12 @@ import Player from "./Player";
 
 const podcastsDia1 = [
   {
-    label: "«La vida como peregrinación»",
-    url: "https://rezando.es/public/rezandovoy/oraciones/2557/o.mp3",
+    label: "«Para tiempos de política difícil».",
+    url: "https://rezando.es/public/rezandovoy/oraciones/1201/o.mp3",
   },
   {
-    label: "«2x01 Objetivo: la felicidad», por Marian Rojas",
-    url: "https://www.youtube.com/watch?v=F0zT5MNkq9g",
+    label: "«Ante el sinsentido y la violencia».",
+    url: "https://rezando.es/public/rezandovoy/oraciones/1026/o.mp3",
   },
 ];
 

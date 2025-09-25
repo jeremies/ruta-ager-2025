@@ -568,6 +568,44 @@ export default function Canconer() {
           </Typography>
         </AccordionDetails>
       </Accordion>
+
+      <Accordion>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          <Typography id="panel15"> 16.- CRISTIANOS DE ORILLA</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          {" "}
+          <Typography variant="body1" gutterBottom>
+            Cristianos de orilla sin profundidad, por miedo a adentrarse en el
+            mar no llegan nunca a embarcar, a embarcar. <br />
+            <br />
+            Cristianos de orilla sin profundidad, por miedo a adentrarse en el
+            mar se quedan en normas que otros dan, y dejan de buscar y respirar.
+            <br />
+            <br />
+            Cristianos de orilla sin profundidad, por miedo a adentrarse en el
+            mar se estancan y no avanzan más. Que se te escapa la vida dando
+            vueltas por la orilla, que se te escapa la vida.
+            <br />
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          <Typography id="panel15"> 17.- EN MI DEBILIDAD</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          {" "}
+          <Typography variant="body1" gutterBottom>
+            En mi debilidad me haces fuerte,<br></br>
+            En mi debilidad me haces fuerte.<br></br>
+            Sólo en tu amor, me haces fuerte,<br></br>
+            Solo en tu vida, me haces fuerte.<br></br>
+            En mi debilidad, te haces fuerte en mi.<br></br>
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
     </div>
   );
 }

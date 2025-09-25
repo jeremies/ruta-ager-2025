@@ -4,12 +4,12 @@ import Player from "./Player";
 
 const musicaDia1 = [
   {
-    label: "Cançó «Beneiré el Senyor», Worship.cat",
-    url: "https://www.youtube.com/watch?v=fsj_msYI1CI",
+    label: "«En mi debilidad me haces fuerte». Brotes de olivo.",
+    url: "https://www.youtube.com/watch?v=exV7J7FOWwE",
   },
   {
-    label: "Cançó «Oceans». Hillson.",
-    url: "https://www.youtube.com/watch?v=1m_sWJQm2fs",
+    label: "«Tuyo soy». Luis Alfredo Díaz.",
+    url: "https://www.youtube.com/watch?v=-NpSpixtIs8",
   },
 ];
 
