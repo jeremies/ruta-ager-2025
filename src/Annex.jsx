@@ -9,6 +9,18 @@ export default function Annex() {
       </Typography>
 
       <Typography sx={{ marginTop: 3 }} variant="h5" gutterBottom>
+        LAUDES
+      </Typography>
+      <a href="https://apps.apple.com/cr/app/litcat-cpl/id1283136025">
+        Iphone - Descarregar app CPL
+      </a>
+      <br />
+      <br />
+      <a href="https://play.google.com/store/apps/details?id=cpl.cpl&hl=en-US">
+        Android - Descarregar app CPL
+      </a>
+
+      <Typography sx={{ marginTop: 3 }} variant="h5" gutterBottom>
         A. EL STARETZ Y LOS DEMONIOS. Cf. «Devoción», Pablo d’Ors.
       </Typography>
       <Typography variant="body1" gutterBottom>
@@ -95,7 +107,7 @@ export default function Annex() {
         <br />
       </Typography>
       <Typography sx={{ marginTop: 3 }} variant="h5" gutterBottom>
-        C. TEXTOS LAUDATO SI. Papa Francesc
+        B. TEXTOS LAUDATO SI. Papa Francesc
       </Typography>
       <Typography variant="body1" gutterBottom>
         Tal com succeeix quan ens enamorem d’una persona, cada vegada que ell
