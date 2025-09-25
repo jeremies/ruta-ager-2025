@@ -26,12 +26,12 @@ const musicaDia2 = [
 
 const musicaDia3 = [
   {
-    label: "«Sin miedo», Cristobal Fones sj.",
-    url: "https://www.youtube.com/watch?v=PneT5asOq_M",
+    label: "«Per sempre». Worship.cat.",
+    url: "https://www.youtube.com/watch?v=3DdLTr04jxY",
   },
   {
-    label: "«Hágase», Camila Garrido i Cristóbal Fones sj.",
-    url: "https://www.youtube.com/watch?v=6TabT1p1MbI",
+    label: "«Oceans». Hillsong.",
+    url: "https://www.youtube.com/watch?v=1m_sWJQm2fs",
   },
 ];
 

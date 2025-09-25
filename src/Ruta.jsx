@@ -45,26 +45,20 @@ export default function Ruta({ day }) {
       {day == 3 && (
         <>
           <Typography variant="h5" sx={{ marginBottom: 3 }} gutterBottom>
-            - avui ets a Poblet. Els monjos tenen vocació de romandre en un
-            lloc. En quin lloc t’agradaria romandre «per sempre»? Quina és, en
-            el fons, la teva vocació? Què té preparat Déu per a tu?
-            Imagina-ho... comparteix-ho amb el teu acompanyant, si t’ajuda.
+            1. La Bíblia i la Tradició de l’Església ens diuen que som
+            «criatures», i que tenim la capacitat d’estimar «el Creador». Dona
+            gràcies per ser com ets, pel teu cos, per la teva psicologia, pels
+            teus dons. Dona gràcies per tot allò que, de natura, has rebut.
           </Typography>
           <Typography variant="h5" sx={{ marginBottom: 3 }} gutterBottom>
-            - quina és «la teva vocació personal»?
+            2. La Bíblia i la Tradició de l’Església ens diuen que «som imatge
+            de Déu». Tenim una vocació a «reflectir» algun tret del Creador,
+            així com entrar en comunió amb Ell i amb els éssers humans. Què et
+            fa pensar i pregar la paraula «comunió»? A què et sents unit,
+            particularment, en la teva vida? Considera com «estem dissenyats»
+            per a la comunió amb tot: la Natura, la família, els amics, la
+            societat, la parella... i Déu com a Font de comunió.
           </Typography>
-          <Box sx={{ display: "flex", justifyContent: "center" }}>
-            <img style={{ width: "80vw" }} src={pobletInterior} />
-          </Box>
-          <Box sx={{ display: "flex", justifyContent: "center" }}>
-            <Typography
-              variant="caption"
-              gutterBottom
-              sx={{ display: "block" }}
-            >
-              Monestir de Poblet
-            </Typography>
-          </Box>
         </>
       )}
     </div>
